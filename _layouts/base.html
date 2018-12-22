@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!-- Page last generated {{ site.time }} -->
+
+{%- if page.description -%}
+	{%- assign description = page.description -%}
+{%- elsif page.layout == "post" -%}
+	{%- assign description = page.excerpt | markdownify | strip_html | replace: '"', ' ' | normalize_whitespace -%}
+{%- else -%}
+	{%- assign description = "" -%}
+{%- endif -%}
+
+<html lang="{{ page.lang }}">
+<head>
+	<title>{{ page.title }} - {{ site.title }}</title>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="{{ description }}" />
+
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="{{ page.title }} - {{ site.title }}" />
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+	<meta property="og:image" content="/content/images/2017/11/DSC01103.jpg" />
+	<meta property="og:description" content="{{ description }}" />
+	<meta property="article:publisher" content="https://www.facebook.com/radiosintetica" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="{{ page.title }} - {{ site.title }}" />
+	<meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
+	<meta name="twitter:site" content="@cesbo" />
+	<meta name="twitter:image" content="/content/images/2017/11/DSC01103.jpg" />
+	<meta name="twitter:description" content="{{ description }}" />
+
+	<link rel="icon" href="/assets/img/favicon.ico" />
+	<link href="/assets/img/apple-touch-icon-precomposed.png" rel="apple-touch-icon">
+
+    <link rel="stylesheet" href="/assets/css/main.min.css?v=a29713a2a0"/>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+      var ga_ua = 'UA-XXXXX-X';
+
+var disqus_shortname = 'radiosinteticaru';
+
+var enable_pjax = true;
+
+      // Pace Options
+      // ==============
+      window.paceOptions = {
+        catchupTime: 100,
+        minTime: 100,
+        elements: false,
+        restartOnRequestAfter: 500,
+        startOnPageLoad: false
+      }
+
+      // Ghostium Globals
+      // ==============
+      window.GHOSTIUM = {};
+      GHOSTIUM.haveGA = typeof ga_ua !== 'undefined' && ga_ua !== 'UA-XXXXX-X';
+      GHOSTIUM.haveDisqus = typeof disqus_shortname !== 'undefined' && disqus_shortname !== 'example';
+      GHOSTIUM.enablePjax = typeof enable_pjax !== 'undefined' ? enable_pjax : true;
+    </script>
+
+    <script src="/assets/js/head-scripts.min.js"></script>
+    <script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "Website",
+	"publisher": {
+		"@type": "Organization",
+		"name": "radiosintetica",
+		"logo": "{{ site.url }}/content/images/2017/11/-15.35.11.png"
+	},
+	"url": "{{ site.url }}",
+	"image": "{{ site.url }}/content/images/2017/11/DSC01103.jpg",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "{{ site.url }}"
+	},
+	"description": "Блог админа"
+}
+	</script>
+
+	<link rel="alternate" type="application/rss+xml" title="radiosintetica" href="{{ site.url }}/feed.xml" />
+
+	<script type="text/javascript" >
+		(function (d, w, c) {
+			(w[c] = w[c] || []).push(function() {
+				try {
+					w.yaCounter41454499 = new Ya.Metrika({
+						id:41454499,
+						clickmap:true,
+						trackLinks:true,
+						accurateTrackBounce:true,
+						webvisor:true,
+						trackHash:true
+					});
+				} catch(e) { }
+			});
+
+			var n = d.getElementsByTagName("script")[0],
+				s = d.createElement("script"),
+				f = function () { n.parentNode.insertBefore(s, n); };
+			s.type = "text/javascript";
+			s.async = true;
+			s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+			if (w.opera == "[object Opera]") {
+				d.addEventListener("DOMContentLoaded", f, false);
+			} else { f(); }
+		})(document, window, "yandex_metrika_callbacks");
+	</script>
+	<noscript><div><img src="https://mc.yandex.ru/watch/41454499" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+	<script>
+window.onLoaded = function(x) {
+	if(document.readyState === 'loading') {
+		document.addEventListener('DOMContentLoaded', function w() {
+			document.removeEventListener('DOMContentLoaded', w);
+			x();
+		});
+	} else {
+		setTimeout(x, 1);
+	}
+};
+	</script>
+</head>
+
+<body class="home-template">
+
+    <button data-action="open-drawer" id="drawer-button" class="drawer-button"><i class="fa fa-bars"></i></button>
+<nav tabindex="-1" class="drawer">
+  <div class="drawer-container">
+    <!--.drawer-search(role="search")-->
+    <ul role="navigation" class="drawer-list">
+
+<li class="drawer-list-item">
+  <a href="/" data-pjax>
+    <i class="fa fa-home"></i>На главную
+  </a>
+</li>
+<li class="drawer-list-item">
+  <a href="{{ site.url }}/feed.xml">
+    <i class="fa fa-rss"></i>Подписаться на новости
+  </a>
+</li>
+<li class="drawer-list-divider"></li>
+<li class="drawer-list-item drawer-list-title">
+  Follow me
+</li>
+<li class="drawer-list-item">
+  <a href="https://t.me/RadioSintetica" target="_blank">
+    <i class="fa fa-telegram"></i>telegram
+  </a>
+</li>
+    </ul>
+  </div>
+</nav>
+
+<div class="drawer-overlay"></div>
+<main id="container" role="main" class="container"><div class="surface"><div class="surface-container"><div data-pjax-container class="content">
+
+{% if page.layout != "post" %}
+<aside role="banner" class="cover">
+  <div data-load-image="/content/images/2017/11/DSC01103.jpg" class="cover-image"></div>
+  <div class="cover-container">
+      <a href="{{ site.url }}" class="cover-logo" data-pjax>
+        <img src="/content/images/2017/11/-15.35.11.png" alt="Blog Logo">
+      </a>
+    <h1 class="cover-title">radiosintetica</h1>
+    <p class="cover-description">Блог админа</p>
+  </div>
+</aside>
+{% endif %}
+
+<section class="wrapper {% if page.layout == "post" %}wrapper-post{% endif %} " tabindex="0">
+	<div class="wrapper-container">
+{{ content }}
+	</div>
+</section>
+
+</div></div></div></main>
+
+
+<script type="text/javascript" src="/assets/js/app.js"></script>
+<script type="text/javascript" src="/assets/js/elasticlunr.min.js"></script>
+<script src="/assets/js/foot-scripts.min.js"></script>
+
+<script type="text/javascript">
+
+if(GHOSTIUM.haveGA) {
+(function(g,h,o,s,t,z){g.GoogleAnalyticsObject=s;g[s]||(g[s]=
+function(){(g[s].q=g[s].q||[]).push(arguments)});g[s].s=+new Date;
+t=h.createElement(o);z=h.getElementsByTagName(o)[0];
+t.src='//www.google-analytics.com/analytics.js';
+z.parentNode.insertBefore(t,z)}(window,document,'script','ga'));
+ga('create',ga_ua);ga('send','pageview');
+}
+
+if(GHOSTIUM.haveDisqus) {
+(function () {
+var s = document.createElement('script'); s.async = true;
+s.type = 'text/javascript';
+s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+}
+</script>
+<script src="/assets/js/jquery.ghostHunter.min.js?v=a29713a2a0"></script>
+<script>
+$("#search-field").ghostHunter({
+	results   : "#results"
+});
+</script>
+</body>
+
+</body>
+</html>

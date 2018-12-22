@@ -1,0 +1,70 @@
+---
+layout: base
+---
+
+<article itemscope itemtype="http://schema.org/BlogPosting" role="article" class="post post">
+	<section class="post-container">
+		<header class="post-header">
+			<ul class="post-meta-list">
+				<li class="post-meta-item">
+						<time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">{{ item.date | date: "%b %-d, %Y" }}</time>
+				</li>
+				<li class="post-meta-item">
+					<a href="#disqus_thread" data-disqus-identifier="{{ post.disqus_id }}">Комментариев</a>
+				</li>
+			</ul>
+			<h1 itemprop="name headline" class="post-title"><a href="{{ post.url }}" itemprop="url" data-pjax title="{{ post.title | escape }}">{{ post.title | escape }}</a></h1>
+		</header>
+
+		<aside class="post-side">
+			<div class="post-author">
+					<a href="{{ site.url }}" class="post-author-avatar">
+						<img src="/content/images/2017/11/-15.35.11.png" alt="{{ site.name }}">
+					</a>
+				<div class="post-author-info">
+					<a href="{{ site.url }}" class="post-author-name">{{ site.name }}</a>
+					<p class="post-author-bio"></p>
+				</div>
+			</div>
+		</aside>
+<div itemprop="articleBody" class="post-body">
+<ul id="post-toc"></ul>
+
+{{ content }}
+
+</div>
+<footer class="post-footer">
+  <div itemprop="author" itemscope itemtype="http://schema.org/Person" class="post-author">
+	  <a href="{{ site.url }}" class="post-author-avatar">
+		<img itemprop="image" src="/content/images/2017/11/-15.35.11.png" alt="{{ site.title }}">
+	  </a>
+	<div class="post-author-info">
+	  <h4 class="post-footer-heading">Написал</h4>
+	  <a href="{{ site.url }}" itemprop="url" class="post-author-name">
+		<span itemprop="name">{{ site.title }}</span>
+	  </a>
+	  <p itemprop="description" class="post-author-bio">{{ post.description }}</p>
+		<p class="post-author-location">Russia, Yekaterinburg</p>
+		<p class="post-author-website">
+		  <a href="{{ site.url }}" rel="nofollow">{{ site.url }}</a>
+		</p>
+	  <p class="post-info">
+		<b class="post-info-title">Опубликовано</b>
+		<time class="post-date">{{ post.date | date: "%b %-d, %Y" }}</time>
+	  </p>
+	</div>
+  </div>
+  <div class="post-social">
+	<h4 class="post-footer-heading">Рассказать в:</h4>
+	<a href="#" data-action="share-twitter"><i class="fa fa-fw fa-lg fa-twitter"></i></a>
+	<a href="#" data-action="share-facebook"><i class="fa fa-fw fa-lg fa-facebook"></i></a>
+	<a href="#" data-action="share-gplus"><i class="fa fa-fw fa-lg fa-google-plus"></i></a>
+  </div>
+</footer>
+</section>
+
+<section itemprop="comment" class="post-comments">
+<div id="disqus_thread"></div>
+</section>
+
+</article>

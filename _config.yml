@@ -1,0 +1,19 @@
+
+title: radiosintetica
+url: https://radiosintetica.ru
+
+exclude:
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+keep_files:
+  - "assets/js/index.json"
+
+#
+
+permalink: pretty
+markdown: kramdown
+excerpt_separator: <!-- more -->
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
