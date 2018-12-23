@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2018-12-23T02:01:14-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">radiosintetica</title><entry><title type="html">cesbo astra - правим css</title><link href="http://0.0.0.0:4000/2018/11/08/cesbo-astra-pravim-css/" rel="alternate" type="text/html" title="cesbo astra - правим css" /><published>2018-11-08T00:00:00-06:00</published><updated>2018-11-08T00:00:00-06:00</updated><id>http://0.0.0.0:4000/2018/11/08/cesbo-astra-pravim-css</id><content type="html" xml:base="http://0.0.0.0:4000/2018/11/08/cesbo-astra-pravim-css/">&lt;p&gt;Для чего? а вот к примеру: 
+&lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;p&gt;Вывести кучу каналов на тв:
+&lt;img src=&quot;/content/images/2017/11/--------------2017-11-08---20.42.08.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Создаем файл /etc/astra/mod_theme/theme.lua :&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;astra_storage[&quot;/tv-c.css&quot;] = [[
+.tv-c .card { margin: 1px; }
+.tv-c .card .card-image { display: none; }
+.tv-c .card .card-status { display: none; }
+.tv-c .card div { background-color: inherit; }
+.tv-c .card.card-true-3, .dark-c .card.card-false-0 { background-color: #434857; }
+.tv-c .card.card-true-2 { background-color: #66bb6a; }
+.tv-c .card.card-true-0, .dark-c .card.card-true-1  { background-color: #ef5350; }
+#.main-menu.fixed { position: fixed; top: 0; left: 0; width: 0%; }
+.main-menu { z-index: 0; }
+.button.icon.small { height: 0px; width: 0px; background-size: 20px; }
+.version { font-size: 0; }
+.card-stack[data-header]:before { font-size: 0px; }
+.card .card-name {font-weight: 600;}
+.main-menu.fixed+.main-content { padding-top: 2px;}
+]]
+
+astra_storage[&quot;/mod.js&quot;] = astra_storage[&quot;/mod.js&quot;] .. [[
+(function() {
+    app.themes.push({ value: &quot;dark tv-c&quot;, label: &quot;For TV&quot; });
+
+    $.head.addChild($.element(&quot;link&quot;)
+        .addAttr(&quot;rel&quot;, &quot;stylesheet&quot;)
+        .addAttr(&quot;type&quot;, &quot;text/css&quot;)
+        .addAttr(&quot;href&quot;, &quot;/tv-c.css&quot;)
+        .addAttr(&quot;media&quot;, &quot;all&quot;));
+})();
+]]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Создаем новый процесс Астры, и запускаем:  /usr/bin/astra  /etc/astra/mod_theme/theme.lua -p 9000 -c /etc/monitor.conf .&lt;br /&gt;
+Добавляем туда через сервера все остальные процессы астр, в настройках меняем тему  и выводим на смарт тв) 
+(меню позади всех элементов - неудобно но попасть можно)))&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/content/images/2017/11/--------------2017-11-17---15.09.08.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="astra" /><summary type="html">Для чего? а вот к примеру:</summary></entry><entry><title type="html">Astra + Grafana</title><link href="http://0.0.0.0:4000/2018/03/20/astra-grafana/" rel="alternate" type="text/html" title="Astra + Grafana" /><published>2018-03-20T00:00:00-05:00</published><updated>2018-03-20T00:00:00-05:00</updated><id>http://0.0.0.0:4000/2018/03/20/astra-grafana</id><content type="html" xml:base="http://0.0.0.0:4000/2018/03/20/astra-grafana/">&lt;p&gt;Небольшой мануал:&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;img src=&quot;/content/images/2018/03/post-2225-0-59081600-1487532724-1.png&quot; alt=&quot;&quot; /&gt;
+Небольшой мануал:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Устанавливаем Influxdb (https://portal.influxdata.com/downloads)&lt;/li&gt;
+  &lt;li&gt;После установки редактируем конфигурацию: в файле  &quot;/etc/influxdb/influxdb.conf&quot; раскоментируем поля в секции Admin, что бы включить веб-интерфейс influxdb, и делаем &quot;service influxdb restart&quot;.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Идем на http://айпинашегосервера:8083  - должна открыться админка influxdb, далее нажимаем CREATE DATABASE и называем её &quot;Astra&quot;. Тут закончили.
+&lt;strong&gt;__&lt;/strong&gt;&lt;strong&gt;__&lt;/strong&gt;_&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Качаем и ставим Grafana - (не ставим из apt-а - там старая версия. Нам нужна версия не ниже 4.2. Потому идем на http://grafana.org/builds/ и выбираем нужную версию там.)&lt;/li&gt;
+  &lt;li&gt;Делаем dpkg -i grafanа-*.deb&lt;/li&gt;
+  &lt;li&gt;Идем на http://айпинашегосервера:3000 - должен заработать веб-интерфейс. Логин и пароль по умолчанию -  admin/admin&lt;/li&gt;
+  &lt;li&gt;Подключаем influxdb: Жмем кнопку Data Sources -&amp;gt; Add Data Source - откроется меню настроек db. пишем туда:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt; Name: Astra
+ Type: InfluxDB
+ URL: http://айпинашегосервера:8086 (или localhost)
+ Database: Astra
+&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;ul&gt;
+  &lt;li&gt;Если в админ-панели influxdb не указывали логин и пароль, то больше ничего никуда не пишем, жмем кнопку Add. Должна появится зеленая табличка говорящая все ОК!&lt;/li&gt;
+  &lt;li&gt;Качаем &lt;a href=&quot;https://radiosintetica.ru/content/images/2016/04/Dashboard_Astra_Autogen.json&quot;&gt;дашборд&lt;/a&gt; или 
+&lt;a href=&quot;https://radiosintetica.ru/content/images/2016/04/Astra_template.json&quot;&gt;этот&lt;/a&gt; и импортируем его: Жмем кнопку Dashboards -&amp;gt; Import
+&lt;strong&gt;__&lt;/strong&gt;_&lt;/li&gt;
+  &lt;li&gt;Создаем папку &quot;/etc/astra/mod&quot;, в нее кладем  скрипт &lt;a href=&quot;https://radiosintetica.ru/content/images/2016/04/event.lua&quot;&gt;event.lua&lt;/a&gt;
+&lt;strong&gt;__&lt;/strong&gt;_&lt;/li&gt;
+  &lt;li&gt;В Веб - интерфейсе Астре прописываем адрес к influxdb: (http://айпинашегосервера:8086/write?db=Astra#interval=60&amp;amp;total=1)&lt;/li&gt;
+  &lt;li&gt;Для отображения названий каналов нужно названия прописать в поле id без пробелов - (&quot;id&quot;: &quot;Матч_ТВ&quot;,)&lt;/li&gt;
+  &lt;li&gt;Перезапускаем Астру.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/content/images/2018/03/post-2225-0-35628500-1487532728.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Все сделано силами сообщества пользователей Astra.
+Благодарности: @Yumaxx, @VladZaitov. Если кого забыл - напишите. 
+Наш телеграмм - канал: &lt;a href=&quot;https://t.me/cesbo_ru&quot;&gt;ТЫЦ!&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="astra" /><summary type="html">Небольшой мануал:</summary></entry><entry><title type="html">Умер Стивен Хокинг</title><link href="http://0.0.0.0:4000/2018/03/14/umier-stivien-khokingh/" rel="alternate" type="text/html" title="Умер Стивен Хокинг" /><published>2018-03-14T00:00:00-05:00</published><updated>2018-03-14T00:00:00-05:00</updated><id>http://0.0.0.0:4000/2018/03/14/umier-stivien-khokingh</id><content type="html" xml:base="http://0.0.0.0:4000/2018/03/14/umier-stivien-khokingh/">&lt;!-- more --&gt;
+
+&lt;p&gt;&lt;img src=&quot;/content/images/2018/03/1521000878130494244.jpg&quot; alt=&quot;&quot; /&gt;
+Британский физик Стивен Хокинг умер на 77-м году жизни, сообщает в среду, 14 марта, The Guardian. Эту информацию подтвердила семья ученого.&lt;/p&gt;
+
+&lt;p&gt;«Мы глубоко опечалены тем, что наш отец сегодня скончался», — сообщили дети Хокинга Люси, Роберт и Тим.&lt;/p&gt;
+
+&lt;p&gt;Широкую известность Хокинг получил после того, как в апреле 1988 года была опубликована его научно-популярная книга «Краткая история времени». Она переведена на десятки языков и издана общим тиражом более 10 миллионов экземпляров. Ученый много внимания уделял и таким актуальным проблемам человечества, как глобальное потепление, состояние окружающей среды и социальное неравенство.&lt;/p&gt;
+
+&lt;p&gt;Главный научный результат Хокинга связан с описанием излучения черных дыр. Он высказал гипотезу о том, что черные дыры малой массы теряют энергию, испуская излучение по своему горизонту событий, и, в конце концов, «умирают».&lt;/p&gt;
+
+&lt;p&gt;Большую часть жизни физик провел в инвалидном кресле. Признаки бокового амиотрофического склероза, которые впоследствии привели к параличу, стали проявляться у Хокинга в начале 1960-х, когда ему было чуть больше 20 лет.&lt;/p&gt;</content><author><name></name></author><category term="posts" /><summary type="html"></summary></entry><entry><title type="html">мысли..</title><link href="http://0.0.0.0:4000/2018/03/09/untitled-9/" rel="alternate" type="text/html" title="мысли.." /><published>2018-03-09T00:00:00-06:00</published><updated>2018-03-09T00:00:00-06:00</updated><id>http://0.0.0.0:4000/2018/03/09/untitled-9</id><content type="html" xml:base="http://0.0.0.0:4000/2018/03/09/untitled-9/">&lt;!-- more --&gt;
+
+&lt;p&gt;Меня недавно спросили, почему программисты ненавидят работать с чужим кодом. Долго думал, как донести до обычного пользователя всю суть пиздеца. Решил привести небольшую аналогию:&lt;/p&gt;
+
+&lt;p&gt;Вот представь, что тебе доверили достроить за другим прорабом лабораторию на острове. Ты приходишь на объект, а там кроме недостроенного здания: огромный вентилятор (размером со здание), большой воздушный шар и комната набитая швабрами. Почесав голову, ты разбираешь этот хлам и доделываешь лабораторию. Сдаешь объект ученным, но через 5 минут они выбегают с криком: &quot;УТЕЧКА ЯДОВИТОГО ГАЗА!!!&quot;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Как так-то, блять! Должно же работать! - в отчаянии кричишь ты и звонишь прошлому прорабу:&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;-Вася, у нас ядовитый газ потёк! В чем проблема?&lt;/li&gt;
+  &lt;li&gt;-Не знаю, должно было все работать. Что-то в проекте менял?&lt;/li&gt;
+  &lt;li&gt;-Немного, швабры вынес…&lt;/li&gt;
+  &lt;li&gt;-Швабры потолок держали!&lt;/li&gt;
+  &lt;li&gt;-Что??? Что, блять, извините???&lt;/li&gt;
+  &lt;li&gt;-Говорю, швабры потолок держали. Над ними цистерны с газом были. Очень тяжелые, пришлось в комнату снизу швабры напихать.&lt;/li&gt;
+  &lt;li&gt;-Ты хотя бы записку на двери повесил бы, что швабры для держания потолка! У нас тут ядовитый газ течет! Что нам делать?&lt;/li&gt;
+  &lt;li&gt;-Включай вентилятор. Он сдует газ с острова.&lt;/li&gt;
+  &lt;li&gt;-Я его, блять, демонтировал сразу же!&lt;/li&gt;
+  &lt;li&gt;-Зачем?&lt;/li&gt;
+  &lt;li&gt;-Зачем ты построил 120 тонный вентилятор? Ты не мог положить ящик блядских ПРОТИВОГАЗОВ?&lt;/li&gt;
+  &lt;li&gt;-Ящик противогазов искать нужно, а вентилятор у меня с прошлого заказа оставался.&lt;/li&gt;
+  &lt;li&gt;-Вася, я убрал твой вентилятор! Мы тут задыхаемся!&lt;/li&gt;
+  &lt;li&gt;-Херли вы тогда там делаете? Садитесь на воздушный шар и уебывайте!&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="posts" /><summary type="html"></summary></entry><entry><title type="html">Odroid XU4</title><link href="http://0.0.0.0:4000/2018/03/09/odroid-xu4/" rel="alternate" type="text/html" title="Odroid XU4" /><published>2018-03-09T00:00:00-06:00</published><updated>2018-03-09T00:00:00-06:00</updated><id>http://0.0.0.0:4000/2018/03/09/odroid-xu4</id><content type="html" xml:base="http://0.0.0.0:4000/2018/03/09/odroid-xu4/">&lt;!-- more --&gt;
+&lt;p&gt;Перенес бложег на такую железку:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Samsung Exynos5422 Cortex™-A15 2Ghz and Cortex™-A7 Octa core CPUs&lt;/li&gt;
+  &lt;li&gt;Mali-T628 MP6(OpenGL ES 3.1/2.0/1.1 and OpenCL 1.2 Full profile)&lt;/li&gt;
+  &lt;li&gt;2Gbyte LPDDR3 RAM PoP stacked&lt;/li&gt;
+  &lt;li&gt;eMMC5.0 HS400 Flash Storage&lt;/li&gt;
+  &lt;li&gt;2 x USB 3.0 Host, 1 x USB 2.0 Host&lt;/li&gt;
+  &lt;li&gt;Gigabit Ethernet port&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/content/images/2018/03/2018-03-09-23.52.48.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="posts" /><summary type="html"></summary></entry><entry><title type="html">astra - input id</title><link href="http://0.0.0.0:4000/2017/12/11/astra-input-id/" rel="alternate" type="text/html" title="astra - input id" /><published>2017-12-11T00:00:00-06:00</published><updated>2017-12-11T00:00:00-06:00</updated><id>http://0.0.0.0:4000/2017/12/11/astra-input-id</id><content type="html" xml:base="http://0.0.0.0:4000/2017/12/11/astra-input-id/">&lt;p&gt;Для создания карусели или переключения источников - можно использовать скрипт: 
+&lt;!-- more --&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://s3.radiosintetica.ru/all/set-input.lua&quot;&gt;ссыка&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Сохраняем в /etc/astra/set-input.lua
+запустить астру: astra -c /etc/astra/astra.conf -p 8000 /etc/astra/set-input.lua&lt;/p&gt;
+
+&lt;p&gt;создать канал и прописать в нём все источники.&lt;/p&gt;
+
+&lt;p&gt;чтобы выбрать источник:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;curl -X POST -d '{&quot;cmd&quot;:&quot;set-input&quot;,&quot;id&quot;:&quot;channel-id&quot;,&quot;input&quot;:X}'  http://admin:password@127.0.0.1:8000/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;channel-id - идентификатор канала. в адресе канала указывается. можно посмотреть в конфиге.
+X - номер нужного входа. нумерация с единицы начинается&lt;/p&gt;</content><author><name></name></author><category term="astra" /><summary type="html">Для создания карусели или переключения источников - можно использовать скрипт:</summary></entry><entry><title type="html">мысли..</title><link href="http://0.0.0.0:4000/2017/11/23/untitled-7/" rel="alternate" type="text/html" title="мысли.." /><published>2017-11-23T00:00:00-06:00</published><updated>2017-11-23T00:00:00-06:00</updated><id>http://0.0.0.0:4000/2017/11/23/untitled-7</id><content type="html" xml:base="http://0.0.0.0:4000/2017/11/23/untitled-7/">&lt;p&gt;Понравилась фраза: 
+&lt;!-- more --&gt;
+&quot;Его вездесущие, вездеебущие и везде раздопиздящие руки нельзя было сравнить даже с кошмарной войной во Вьетнаме&quot;&lt;/p&gt;</content><author><name></name></author><category term="posts" /><summary type="html">Понравилась фраза:</summary></entry><entry><title type="html">Еще одна заметка о сетевой подсистеме</title><link href="http://0.0.0.0:4000/2017/11/14/untitled-3/" rel="alternate" type="text/html" title="Еще одна заметка о сетевой подсистеме" /><published>2017-11-14T00:00:00-06:00</published><updated>2017-11-14T00:00:00-06:00</updated><id>http://0.0.0.0:4000/2017/11/14/untitled-3</id><content type="html" xml:base="http://0.0.0.0:4000/2017/11/14/untitled-3/">&lt;!-- more --&gt;
+&lt;p&gt;Еще одним весьма важным параметром является задержка между прерываниями. 
+Посмотреть текущее значение можно при помощи ethtool -c ethN, параметры rx-usecs и tx-usecs. 
+Чем больше значение, тем выше задержка, но тем меньше нагрузка на процессор.&lt;/p&gt;</content><author><name></name></author><category term="net" /><summary type="html"></summary></entry><entry><title type="html">Картинка в тему</title><link href="http://0.0.0.0:4000/2016/12/25/untitled-2/" rel="alternate" type="text/html" title="Картинка в тему" /><published>2016-12-25T00:00:00-06:00</published><updated>2016-12-25T00:00:00-06:00</updated><id>http://0.0.0.0:4000/2016/12/25/untitled-2</id><content type="html" xml:base="http://0.0.0.0:4000/2016/12/25/untitled-2/">&lt;!-- more --&gt;
+&lt;p&gt;&lt;img src=&quot;/content/images/2016/12/1482490468119793536.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="post" /><summary type="html"></summary></entry><entry><title type="html">PPTP в macOS Sierra</title><link href="http://0.0.0.0:4000/2016/06/10/pptp-v-macos-sierra/" rel="alternate" type="text/html" title="PPTP в macOS Sierra" /><published>2016-06-10T00:00:00-05:00</published><updated>2016-06-10T00:00:00-05:00</updated><id>http://0.0.0.0:4000/2016/06/10/pptp-v-macos-sierra</id><content type="html" xml:base="http://0.0.0.0:4000/2016/06/10/pptp-v-macos-sierra/">&lt;!-- more --&gt;
+&lt;p&gt;С проклятиями сегодня обнаружил что доблестные купертиновцы выпилили из Sierra pptp: - дескать, &lt;a href=&quot;https://support.apple.com/ru-ru/HT206844&quot;&gt;несекьюрно и опасно&lt;/a&gt;. 
+Кстати из ios 10 они и “Slide to Unlock” удалили. Я вот до сих пор на автомате дергаю пальцем по экрану…&lt;/p&gt;</content><author><name></name></author><category term="post" /><summary type="html"></summary></entry></feed>

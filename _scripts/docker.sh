@@ -17,7 +17,7 @@ fi
 cd $(dirname $0) && cd ..
 export MSYS_NO_PATHCONV=1
 
-BASE_DIR="/srv/jekyll/cesbo.com"
+BASE_DIR="/srv/jekyll/radiosintetica.ru"
 
 if [ "$1" = "x" ]; then
 

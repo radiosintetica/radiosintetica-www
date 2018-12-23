@@ -1,0 +1,1556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tv SYSTEM "xmltv.dtd">
+<tv generator-info-name="astra-epg-export">
+<channel id="a039">
+	<display-name>CBS Reality</display-name>
+</channel>
+<channel id="a040">
+	<display-name>360TuneBox-225.224.14.8</display-name>
+</channel>
+<channel id="a045">
+	<display-name>FightBox HD-225.224.14.8</display-name>
+</channel>
+<programme channel="a040" start="20180618020000 +0200" stop="20180618030000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618020000 +0200" stop="20180618022500 +0200">
+	<title lang="ro">Detectivi in halate albe</title>
+	<title lang="hu">Nyomoz. orvosok</title>
+	<desc lang="ro">(sua, 1996, s. doc., sezonul 1, episodul 8) Cu: Joe Gerety,  Seria in...</desc>
+	<desc lang="hu">(am. dok. sor., I./8. r.sz, 1996) R.: Michael Jordan, Sovanna Mam,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180618021000 +0200" stop="20180618051000 +0200">
+	<title lang="en">Thunderstrike Fight League 13</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618022500 +0200" stop="20180618031500 +0200">
+	<title lang="ro">Coliziune accidentala sau...</title>
+	<title lang="hu">.tk.z.sek - H.ress.gek a vol.n m.g.tt</title>
+	<desc lang="ro">(can., 2017, divertisment, sezonul 1, episodul 3) Cu: Liam Murphy, Tyler...</desc>
+	<desc lang="hu">(kan. sz.r. m.sor, I./3. r.sz, 2017)</desc>
+	<category lang="en">Show</category>
+</programme>
+<programme channel="a040" start="20180618030000 +0200" stop="20180618040000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618031500 +0200" stop="20180618034000 +0200">
+	<title lang="ro">Paza de coasta din Noua Zeelanda</title>
+	<title lang="hu">Az .ce.n j.r.rei</title>
+	<desc lang="ro">(s. doc., sezonul 1, episodul 3) Ofiterii din paza de coasta au lansat o...</desc>
+	<desc lang="hu">(dok. sor., I./3. r.sz)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180618034000 +0200" stop="20180618040500 +0200">
+	<title lang="ro">Paza de coasta din Noua Zeelanda</title>
+	<title lang="hu">Az .ce.n j.r.rei</title>
+	<desc lang="ro">(s. doc., sezonul 1, episodul 4) Ofiterii din paza de coasta au lansat o...</desc>
+	<desc lang="hu">(dok. sor., I./4. r.sz)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180618040000 +0200" stop="20180618050000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618040500 +0200" stop="20180618045000 +0200">
+	<title lang="ro">Vecini de cosmar</title>
+	<title lang="hu">R.mes szomsz.dok</title>
+	<desc lang="ro">(engl., 2014, mini.s. doc., sezonul 5, episodul 5) Aceasta noua emisiune...</desc>
+	<desc lang="hu">(angol dokureality-sor., V./5. r.sz, 2014) A sorozat felt.rk.pezi a...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180618045000 +0200" stop="20180618053500 +0200">
+	<title lang="ro">Consilieri de probatiune</title>
+	<title lang="hu">Parole Diaries: Felt.telesen...</title>
+	<desc lang="ro">(sua, 2012, s. reality show, sezonul 1, episodul 9) Cu: Rodd Houston,...</desc>
+	<desc lang="hu">(am. reality-sor., I./9. r.sz, 2012) Carter&apos;s Rule</desc>
+	<category lang="en">Show</category>
+</programme>
+<programme channel="a040" start="20180618050000 +0200" stop="20180618060000 +0200">
+	<title lang="en">Street Buzz</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180618051000 +0200" stop="20180618052000 +0200">
+	<title lang="en">Japan Queen Tournament</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180618052000 +0200" stop="20180618053500 +0200">
+	<title lang="en">Osaka Funny Wrestling</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180618053500 +0200" stop="20180618054500 +0200">
+	<title lang="en">WUSHU Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618053500 +0200" stop="20180618060000 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 1996, s. reality show, sezonul 13, episodul 6) R.: Jerry Kupcinet,...</desc>
+	<desc lang="hu">(am. reality-sor., XIII./6. r.sz, 1996) Judy b.r.n. sz.kimond.,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180618054500 +0200" stop="20180618061500 +0200">
+	<title lang="en">Taekwondo</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180618060000 +0200" stop="20180618070000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618060000 +0200" stop="20180618065000 +0200">
+	<title lang="ro">Case de amanet din Marea Britanie</title>
+	<title lang="hu">Deal Makers: A z.logosok</title>
+	<desc lang="ro">(reality show, sezonul 2, episodul 11) In aceasta emisiune se amaneteaza...</desc>
+	<desc lang="hu">(val.s.gshow, II./11. r.sz)</desc>
+	<category lang="en">Show</category>
+</programme>
+<programme channel="a045" start="20180618061500 +0200" stop="20180618063000 +0200">
+	<title lang="en">Japan Queen Tournament</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180618063000 +0200" stop="20180618064500 +0200">
+	<title lang="en">Osaka Funny Wrestling</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180618064500 +0200" stop="20180618070000 +0200">
+	<title lang="en">WUSHU Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618065000 +0200" stop="20180618074000 +0200">
+	<title lang="ro">In lupta cu gunoaiele</title>
+	<title lang="hu">K.rnyezetszennyez.k</title>
+	<desc lang="ro">(engl., s. doc., sezonul 2, episodul 6) Serial documentar care...</desc>
+	<desc lang="hu">(angol dok. sor., II./6. r.sz) R.: Gareth Rowlands, Andrew Miles, Josh...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180618070000 +0200" stop="20180618103000 +0200">
+	<title lang="en">Siesta Boxing Terminator The Homecoming</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180618070000 +0200" stop="20180618080000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618074000 +0200" stop="20180618083000 +0200">
+	<title lang="ro">Vecini de cosmar</title>
+	<title lang="hu">R.mes szomsz.dok</title>
+	<desc lang="ro">(engl., 2014, mini.s. doc., sezonul 2, episodul 5) Aceasta noua emisiune...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./5. r.sz, 2014) A sorozat felt.rk.pezi a...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180618080000 +0200" stop="20180618090000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618083000 +0200" stop="20180618085500 +0200">
+	<title lang="ro">In flagrant delict</title>
+	<title lang="hu">Tetten .rve</title>
+	<desc lang="ro">(engl., 2013, mini.s. doc., sezonul 2, episodul 13) Seria 3 urmareste...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./13. r.sz, 2013) Dom Littlewood bepillant.st...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180618085500 +0200" stop="20180618092000 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, 2008, f. doc., sezonul 1, episodul 5) De la yahturi luxoase si...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./5. r.sz, 2008)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180618090000 +0200" stop="20180618100000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618092000 +0200" stop="20180618094500 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, 2008, f. doc., sezonul 1, episodul 6) Cu: Matt Burch, Lou Pizarro,...</desc>
+	<desc lang="hu">(dokumentumf., I./6. r.sz)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180618094500 +0200" stop="20180618103500 +0200">
+	<title lang="ro">Nasteri mai putin obisnuite</title>
+	<title lang="hu">Bab.k: K.l.nleges sz.let.sek</title>
+	<desc lang="ro">(sua-can., s. doc., sezonul 2, episodul 4) Realizatorii acestei serii...</desc>
+	<desc lang="hu">(am.-kan. dok. sor., II./4. r.sz) 8 m.sodpercenk.nt sz.letik egy baba az...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180618100000 +0200" stop="20180618110000 +0200">
+	<title lang="en">Electric Jam</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180618103000 +0200" stop="20180618124500 +0200">
+	<title lang="en">King of Kings Heroes Grand Prix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618103500 +0200" stop="20180618110000 +0200">
+	<title lang="ro">Primele 42 de zile</title>
+	<title lang="hu">Sz.l.szoba</title>
+	<desc lang="ro">(can., 2006, mini.s. doc., sezonul 1, episodul 21) Emisiunea prezinta...</desc>
+	<desc lang="hu">(kan. dokureality-sor., I./21. r.sz, 2006) R.: Beth Shuman, Dennis...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180618110000 +0200" stop="20180618112500 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 2010, emis. info., sezonul 14, episodul 201) Judecatoarea Judy...</desc>
+	<desc lang="hu">(am. dokumentumf., XIV./201. r.sz, 2010)</desc>
+	<category lang="en">News</category>
+</programme>
+<programme channel="a040" start="20180618110000 +0200" stop="20180618120000 +0200">
+	<title lang="en">Artist Breakout</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618112500 +0200" stop="20180618115000 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 2010, emis. info., sezonul 14, episodul 202) Judecatoarea Judy...</desc>
+	<desc lang="hu">(am. dokumentumf., XIV./202. r.sz, 2010)</desc>
+	<category lang="en">News</category>
+</programme>
+<programme channel="a039" start="20180618115000 +0200" stop="20180618121500 +0200">
+	<title lang="ro">Detectivi in halate albe</title>
+	<title lang="hu">Nyomoz. orvosok</title>
+	<desc lang="ro">(sua, 2001, s. doc., sezonul 6, episodul 22) Cu: Mike Allen, Joseph T....</desc>
+	<desc lang="hu">(am. dok. sor., VI./22. r.sz, 2001) R.: Michael Jordan, Sovanna Mam,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180618120000 +0200" stop="20180618130000 +0200">
+	<title lang="en">Artist Breakout</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618121500 +0200" stop="20180618130500 +0200">
+	<title lang="ro">Case de amanet din Marea Britanie</title>
+	<title lang="hu">Deal Makers: A z.logosok</title>
+	<desc lang="ro">(reality show, sezonul 2, episodul 11) In aceasta emisiune se amaneteaza...</desc>
+	<desc lang="hu">(val.s.gshow, II./11. r.sz)</desc>
+	<category lang="en">Show</category>
+</programme>
+<programme channel="a045" start="20180618124500 +0200" stop="20180618141000 +0200">
+	<title lang="en">Superkombat Fighting Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180618130000 +0200" stop="20180618140000 +0200">
+	<title lang="en">Artist Breakout</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618130500 +0200" stop="20180618135500 +0200">
+	<title lang="ro">In lupta cu gunoaiele</title>
+	<title lang="hu">K.rnyezetszennyez.k</title>
+	<desc lang="ro">(engl., s. doc., sezonul 2, episodul 6) Serial documentar care...</desc>
+	<desc lang="hu">(angol dok. sor., II./6. r.sz) R.: Gareth Rowlands, Andrew Miles, Josh...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180618135500 +0200" stop="20180618142000 +0200">
+	<title lang="ro">In flagrant delict</title>
+	<title lang="hu">Tetten .rve</title>
+	<desc lang="ro">(engl., 2013, mini.s. doc., sezonul 2, episodul 13) Seria 3 urmareste...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./13. r.sz, 2013) Dom Littlewood bepillant.st...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180618140000 +0200" stop="20180618150000 +0200">
+	<title lang="en">Music Bash</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180618141000 +0200" stop="20180618163000 +0200">
+	<title lang="en">FightBox King of Kings Heroes Series Vilnus 18.11.2017</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618142000 +0200" stop="20180618151000 +0200">
+	<title lang="ro">Vecini de cosmar</title>
+	<title lang="hu">R.mes szomsz.dok</title>
+	<desc lang="ro">(engl., 2014, mini.s. doc., sezonul 2, episodul 5) Aceasta noua emisiune...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./5. r.sz, 2014) A sorozat felt.rk.pezi a...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180618150000 +0200" stop="20180618160000 +0200">
+	<title lang="en">Music Bash</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618151000 +0200" stop="20180618153500 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 1996, s. reality show, sezonul 12, episodul 21) R.: Jerry...</desc>
+	<desc lang="hu">(am. reality-sor., XII./21. r.sz, 1996) Judy b.r.n. sz.kimond.,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180618153500 +0200" stop="20180618160000 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 1996, s. reality show, sezonul 12, episodul 22) R.: Jerry...</desc>
+	<desc lang="hu">(am. reality-sor., XII./22. r.sz, 1996) Judy b.r.n. sz.kimond.,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180618160000 +0200" stop="20180618165000 +0200">
+	<title lang="ro">Nasteri mai putin obisnuite</title>
+	<title lang="hu">Bab.k: K.l.nleges sz.let.sek</title>
+	<desc lang="ro">(sua-can., s. doc., sezonul 2, episodul 4) Realizatorii acestei serii...</desc>
+	<desc lang="hu">(am.-kan. dok. sor., II./4. r.sz) 8 m.sodpercenk.nt sz.letik egy baba az...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180618160000 +0200" stop="20180618170000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180618163000 +0200" stop="20180618190500 +0200">
+	<title lang="en">LNK Boxing Night 7, Arena Riga</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618165000 +0200" stop="20180618171500 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, 2008, f. doc., sezonul 1, episodul 5) De la yahturi luxoase si...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./5. r.sz, 2008)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180618170000 +0200" stop="20180618180000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618171500 +0200" stop="20180618174000 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, 2008, f. doc., sezonul 1, episodul 6) Cu: Matt Burch, Lou Pizarro,...</desc>
+	<desc lang="hu">(dokumentumf., I./6. r.sz)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180618174000 +0200" stop="20180618180500 +0200">
+	<title lang="ro">Detectivi in halate albe</title>
+	<title lang="hu">Nyomoz. orvosok</title>
+	<desc lang="ro">(sua, 2001, s. doc., sezonul 6, episodul 22) Cu: Mike Allen, Joseph T....</desc>
+	<desc lang="hu">(am. dok. sor., VI./22. r.sz, 2001) R.: Michael Jordan, Sovanna Mam,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180618180000 +0200" stop="20180618190000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618180500 +0200" stop="20180618183000 +0200">
+	<title lang="ro">Primele 42 de zile</title>
+	<title lang="hu">Sz.l.szoba</title>
+	<desc lang="ro">(can., 2006, mini.s. doc., sezonul 1, episodul 21) Emisiunea prezinta...</desc>
+	<desc lang="hu">(kan. dokureality-sor., I./21. r.sz, 2006) R.: Beth Shuman, Dennis...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180618183000 +0200" stop="20180618192000 +0200">
+	<title lang="ro">Vecini de cosmar</title>
+	<title lang="hu">R.mes szomsz.dok</title>
+	<desc lang="ro">(engl., 2014, mini.s. doc., sezonul 2, episodul 5) Aceasta noua emisiune...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./5. r.sz, 2014) A sorozat felt.rk.pezi a...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180618190000 +0200" stop="20180618200000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180618190500 +0200" stop="20180618221500 +0200">
+	<title lang="en">Superkombat Fighting Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618192000 +0200" stop="20180618201000 +0200">
+	<title lang="ro">Case de amanet din Marea Britanie</title>
+	<title lang="hu">Deal Makers: A z.logosok</title>
+	<desc lang="ro">(reality show, sezonul 2, episodul 11) In aceasta emisiune se amaneteaza...</desc>
+	<desc lang="hu">(val.s.gshow, II./11. r.sz)</desc>
+	<category lang="en">Show</category>
+</programme>
+<programme channel="a040" start="20180618200000 +0200" stop="20180618210000 +0200">
+	<title lang="en">Rough Riff</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618201000 +0200" stop="20180618203500 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 2010, emis. info., sezonul 14, episodul 201) Judecatoarea Judy...</desc>
+	<desc lang="hu">(am. dokumentumf., XIV./201. r.sz, 2010)</desc>
+	<category lang="en">News</category>
+</programme>
+<programme channel="a039" start="20180618203500 +0200" stop="20180618210000 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 2010, emis. info., sezonul 14, episodul 202) Judecatoarea Judy...</desc>
+	<desc lang="hu">(am. dokumentumf., XIV./202. r.sz, 2010)</desc>
+	<category lang="en">News</category>
+</programme>
+<programme channel="a040" start="20180618210000 +0200" stop="20180618220000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618210000 +0200" stop="20180618215000 +0200">
+	<title lang="ro">Cu sange-rece</title>
+	<title lang="hu">Hidegv.rrel</title>
+	<desc lang="ro">(f. doc., sezonul 6, episodul 6) Aceasta emisiune arata cum decurg...</desc>
+	<desc lang="hu">(kan. dokumentumf., VI./6. r.sz)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180618215000 +0200" stop="20180618224000 +0200">
+	<title lang="ro">Pacate si secrete</title>
+	<title lang="hu">B.n.k .s titkok</title>
+	<desc lang="ro">(sua, s. politist, sezonul 1, episodul 26) Pacate si Secrete prezinta...</desc>
+	<desc lang="hu">(am. krimisor., I./26. r.sz)</desc>
+	<category lang="en">Movie/Drama</category>
+</programme>
+<programme channel="a040" start="20180618220000 +0200" stop="20180618230000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180618221500 +0200" stop="20180618233000 +0200">
+	<title lang="en">Xtreme Fighting Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618224000 +0200" stop="20180618233000 +0200">
+	<title lang="ro">Investigatii paranormale</title>
+	<title lang="hu">T.lvil.gi oknyomoz.k</title>
+	<desc lang="ro">(sua, 2007, s. reality show, sezonul 1, episodul 11) Investigatii...</desc>
+	<desc lang="hu">(angol dokureality-sor., I./11. r.sz, 2006) Nagy-Britannia legismertebb...</desc>
+	<category lang="en">Show</category>
+</programme>
+<programme channel="a040" start="20180618230000 +0200" stop="20180619035900 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180618233000 +0200" stop="20180619014500 +0200">
+	<title lang="en">King of Kings Heroes Grand Prix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180618233000 +0200" stop="20180619002500 +0200">
+	<title lang="ro">Cu sange rece</title>
+	<title lang="hu">Hidegv.rrel</title>
+	<desc lang="ro">(can., 2008, s. doc., sezonul 7, episodul 10) A fost comisa o crima, dar...</desc>
+	<desc lang="hu">(kan. dok. sor., VII./10. r.sz, 2008) R.: Karl Jason, P.J. Naworynski,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180619000000 +0200" stop="20180619230000 +0200">
+	<title lang="en">Fresh Out The Box</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619002500 +0200" stop="20180619011500 +0200">
+	<title lang="ro">Infidelitati</title>
+	<title lang="hu">H.tlen h.zast.rsak</title>
+	<desc lang="ro">(sua, 2000, reality show, sezonul 14, episodul 10) R.: John McCalmont,...</desc>
+	<desc lang="hu">(am. reality show, XIV./10. r.sz, 2000) R.: Kenneth M. Smith Jr., John...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180619010000 +0200" stop="20180620000100 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619011500 +0200" stop="20180619014000 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, 2007, f. doc., sezonul 1, episodul 2) Cu: Matt Burch, Lou Pizarro,...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./2. r.sz, 2008)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180619014000 +0200" stop="20180619023000 +0200">
+	<title lang="ro">Pacate si secrete</title>
+	<title lang="hu">B.n.k .s titkok</title>
+	<desc lang="ro">(sua, s. politist, sezonul 1, episodul 26) Pacate si Secrete prezinta...</desc>
+	<desc lang="hu">(am. krimisor., I./26. r.sz)</desc>
+	<category lang="en">Movie/Drama</category>
+</programme>
+<programme channel="a045" start="20180619014500 +0200" stop="20180619024000 +0200">
+	<title lang="en">DEEP</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180619020000 +0200" stop="20180619030000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619023000 +0200" stop="20180619032000 +0200">
+	<title lang="ro">Cu sange-rece</title>
+	<title lang="hu">Hidegv.rrel</title>
+	<desc lang="ro">(f. doc., sezonul 6, episodul 6) Aceasta emisiune arata cum decurg...</desc>
+	<desc lang="hu">(kan. dokumentumf., VI./6. r.sz)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180619024000 +0200" stop="20180619041000 +0200">
+	<title lang="en">Ultimate Combat Experience - UCE</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180619030000 +0200" stop="20180619040000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619032000 +0200" stop="20180619034000 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 1996, s. reality show, sezonul 13, episodul 126) R.: Jerry...</desc>
+	<desc lang="hu">(am. reality-sor., XIII./126. r.sz, 1996) Judy b.r.n. sz.kimond.,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180619034000 +0200" stop="20180619040500 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 1996, s. reality show, sezonul 13, episodul 127) R.: Jerry...</desc>
+	<desc lang="hu">(am. reality-sor., XIII./127. r.sz, 1996) Judy b.r.n. sz.kimond.,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180619040000 +0200" stop="20180619050000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619040500 +0200" stop="20180619042500 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 1996, s. reality show, sezonul 13, episodul 128) R.: Jerry...</desc>
+	<desc lang="hu">(am. reality-sor., XIII./128. r.sz, 1996) Judy b.r.n. sz.kimond.,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180619041000 +0200" stop="20180619045500 +0200">
+	<title lang="en">All Japan Pro Wrestling - AJPW</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619042500 +0200" stop="20180619051000 +0200">
+	<title lang="ro">Nasteri mai putin obisnuite</title>
+	<title lang="hu">Bab.k: K.l.nleges sz.let.sek</title>
+	<desc lang="ro">(sua-can., divertisment, sezonul 5, episodul 10) Acest documentar...</desc>
+	<desc lang="hu">(am.-kan. dok. sor., V./10. r.sz) 8 m.sodpercenk.nt sz.letik egy baba az...</desc>
+	<category lang="en">Show</category>
+</programme>
+<programme channel="a045" start="20180619045500 +0200" stop="20180619051500 +0200">
+	<title lang="en">Taekwondo</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180619050000 +0200" stop="20180619060000 +0200">
+	<title lang="en">Electric Jam</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619051000 +0200" stop="20180619053500 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, 2008, f. doc., sezonul 1, episodul 5) De la yahturi luxoase si...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./5. r.sz, 2008)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180619051500 +0200" stop="20180619053000 +0200">
+	<title lang="en">Japan Queen Tournament</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180619053000 +0200" stop="20180619054500 +0200">
+	<title lang="en">Osaka Funny Wrestling</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619053500 +0200" stop="20180619060000 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, 2008, f. doc., sezonul 1, episodul 6) Cu: Matt Burch, Lou Pizarro,...</desc>
+	<desc lang="hu">(dokumentumf., I./6. r.sz)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180619054500 +0200" stop="20180619061500 +0200">
+	<title lang="en">WUSHU Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619060000 +0200" stop="20180619065000 +0200">
+	<title lang="ro">Case de amanet din Marea Britanie</title>
+	<title lang="hu">Deal Makers: A z.logosok</title>
+	<desc lang="ro">(reality show, sezonul 2, episodul 12) In aceasta emisiune se amaneteaza...</desc>
+	<desc lang="hu">(val.s.gshow, II./12. r.sz)</desc>
+	<category lang="en">Show</category>
+</programme>
+<programme channel="a040" start="20180619060000 +0200" stop="20180619070000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180619061500 +0200" stop="20180619063000 +0200">
+	<title lang="en">Taekwondo</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180619063000 +0200" stop="20180619064500 +0200">
+	<title lang="en">Japan Queen Tournament</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180619064500 +0200" stop="20180619070000 +0200">
+	<title lang="en">Osaka Funny Wrestling</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619065000 +0200" stop="20180619074000 +0200">
+	<title lang="ro">In lupta cu gunoaiele</title>
+	<title lang="hu">K.rnyezetszennyez.k</title>
+	<desc lang="ro">(engl., s. doc., sezonul 2, episodul 7) Serial documentar care...</desc>
+	<desc lang="hu">(angol dok. sor., II./7. r.sz) R.: Gareth Rowlands, Andrew Miles, Josh...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180619070000 +0200" stop="20180619080000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180619070000 +0200" stop="20180619083000 +0200">
+	<title lang="en">World Karate Federation 2016</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619074000 +0200" stop="20180619083000 +0200">
+	<title lang="ro">Vecini de cosmar</title>
+	<title lang="hu">R.mes szomsz.dok</title>
+	<desc lang="ro">(engl., 2014, mini.s. doc., sezonul 2, episodul 6) Aceasta noua emisiune...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./6. r.sz, 2014) A sorozat felt.rk.pezi a...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180619080000 +0200" stop="20180619090000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619083000 +0200" stop="20180619085500 +0200">
+	<title lang="ro">In flagrant delict</title>
+	<title lang="hu">Tetten .rve</title>
+	<desc lang="ro">(engl., 2013, mini.s. doc., sezonul 2, episodul 14) Seria 3 urmareste...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./14. r.sz, 2013) Dom Littlewood bepillant.st...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180619083000 +0200" stop="20180619095500 +0200">
+	<title lang="en">Superkombat Fighting Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619085500 +0200" stop="20180619092000 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, 2008, f. doc., sezonul 1, episodul 7) De la yahturi luxoase si...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./7. r.sz, 2008)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180619090000 +0200" stop="20180619100000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619092000 +0200" stop="20180619094500 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, f. doc., sezonul 1, episodul 8) De la yahturi luxoase si masini...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./8. r.sz, 2008)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180619094500 +0200" stop="20180619103500 +0200">
+	<title lang="ro">Nasteri mai putin obisnuite</title>
+	<title lang="hu">Bab.k: K.l.nleges sz.let.sek</title>
+	<desc lang="ro">(sua-can., s. doc., sezonul 2, episodul 5) Realizatorii acestei serii...</desc>
+	<desc lang="hu">(am.-kan. dok. sor., II./5. r.sz) 8 m.sodpercenk.nt sz.letik egy baba az...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180619095500 +0200" stop="20180619122000 +0200">
+	<title lang="en">NEW High Explosive</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180619100000 +0200" stop="20180619110000 +0200">
+	<title lang="en">Bounce &amp; fun</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619103500 +0200" stop="20180619110000 +0200">
+	<title lang="ro">Primele 42 de zile</title>
+	<title lang="hu">Sz.l.szoba</title>
+	<desc lang="ro">(can., 2006, mini.s. doc., sezonul 1, episodul 22) Emisiunea prezinta...</desc>
+	<desc lang="hu">(kan. dokureality-sor., I./22. r.sz, 2006) R.: Beth Shuman, Dennis...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180619110000 +0200" stop="20180619112500 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 2010, emis. info., sezonul 14, episodul 203) Judecatoarea Judy...</desc>
+	<desc lang="hu">(am. dokumentumf., XIV./203. r.sz, 2010)</desc>
+	<category lang="en">News</category>
+</programme>
+<programme channel="a040" start="20180619110000 +0200" stop="20180619120000 +0200">
+	<title lang="en">Artist Breakout</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619112500 +0200" stop="20180619115000 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 2010, emis. info., sezonul 14, episodul 204) Judecatoarea Judy...</desc>
+	<desc lang="hu">(am. dokumentumf., XIV./204. r.sz, 2010)</desc>
+	<category lang="en">News</category>
+</programme>
+<programme channel="a039" start="20180619115000 +0200" stop="20180619121500 +0200">
+	<title lang="ro">Detectivi in halate albe</title>
+	<title lang="hu">Nyomoz. orvosok</title>
+	<desc lang="ro">(sua, 2001, s. doc., sezonul 6, episodul 23) Cu: Lisa Adams, Richard...</desc>
+	<desc lang="hu">(am. dok. sor., VI./23. r.sz, 2001) R.: Michael Jordan, Sovanna Mam,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180619120000 +0200" stop="20180619130000 +0200">
+	<title lang="en">Artist Breakout</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619121500 +0200" stop="20180619130500 +0200">
+	<title lang="ro">Case de amanet din Marea Britanie</title>
+	<title lang="hu">Deal Makers: A z.logosok</title>
+	<desc lang="ro">(reality show, sezonul 2, episodul 12) In aceasta emisiune se amaneteaza...</desc>
+	<desc lang="hu">(val.s.gshow, II./12. r.sz)</desc>
+	<category lang="en">Show</category>
+</programme>
+<programme channel="a045" start="20180619122000 +0200" stop="20180619130500 +0200">
+	<title lang="en">Explosion Fight Night</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180619130000 +0200" stop="20180619140000 +0200">
+	<title lang="en">Artist Breakout</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180619130500 +0200" stop="20180619132000 +0200">
+	<title lang="en">WUSHU Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619130500 +0200" stop="20180619135500 +0200">
+	<title lang="ro">In lupta cu gunoaiele</title>
+	<title lang="hu">K.rnyezetszennyez.k</title>
+	<desc lang="ro">(engl., s. doc., sezonul 2, episodul 7) Serial documentar care...</desc>
+	<desc lang="hu">(angol dok. sor., II./7. r.sz) R.: Gareth Rowlands, Andrew Miles, Josh...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180619132000 +0200" stop="20180619133500 +0200">
+	<title lang="en">Taekwondo</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180619133500 +0200" stop="20180619135000 +0200">
+	<title lang="en">Japan Queen Tournament</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180619135000 +0200" stop="20180619153500 +0200">
+	<title lang="en">Superkombat Fighting Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619135500 +0200" stop="20180619142000 +0200">
+	<title lang="ro">In flagrant delict</title>
+	<title lang="hu">Tetten .rve</title>
+	<desc lang="ro">(engl., 2013, mini.s. doc., sezonul 2, episodul 14) Seria 3 urmareste...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./14. r.sz, 2013) Dom Littlewood bepillant.st...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180619140000 +0200" stop="20180619150000 +0200">
+	<title lang="en">Totally Indie</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619142000 +0200" stop="20180619151000 +0200">
+	<title lang="ro">Vecini de cosmar</title>
+	<title lang="hu">R.mes szomsz.dok</title>
+	<desc lang="ro">(engl., 2014, mini.s. doc., sezonul 2, episodul 6) Aceasta noua emisiune...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./6. r.sz, 2014) A sorozat felt.rk.pezi a...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180619150000 +0200" stop="20180619160000 +0200">
+	<title lang="en">Totally Indie</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619151000 +0200" stop="20180619153500 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 1996, s. reality show, sezonul 12, episodul 23) R.: Jerry...</desc>
+	<desc lang="hu">(am. reality-sor., XII./23. r.sz, 1996) Judy b.r.n. sz.kimond.,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180619153500 +0200" stop="20180619160000 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 1996, s. reality show, sezonul 12, episodul 24) R.: Jerry...</desc>
+	<desc lang="hu">(am. reality-sor., XII./24. r.sz, 1996) Judy b.r.n. sz.kimond.,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180619153500 +0200" stop="20180619175000 +0200">
+	<title lang="en">King of Kings Heroes Grand Prix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619160000 +0200" stop="20180619165000 +0200">
+	<title lang="ro">Nasteri mai putin obisnuite</title>
+	<title lang="hu">Bab.k: K.l.nleges sz.let.sek</title>
+	<desc lang="ro">(sua-can., s. doc., sezonul 2, episodul 5) Realizatorii acestei serii...</desc>
+	<desc lang="hu">(am.-kan. dok. sor., II./5. r.sz) 8 m.sodpercenk.nt sz.letik egy baba az...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180619160000 +0200" stop="20180619170000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619165000 +0200" stop="20180619171500 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, 2008, f. doc., sezonul 1, episodul 7) De la yahturi luxoase si...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./7. r.sz, 2008)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180619170000 +0200" stop="20180619180000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619171500 +0200" stop="20180619174000 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, f. doc., sezonul 1, episodul 8) De la yahturi luxoase si masini...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./8. r.sz, 2008)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180619174000 +0200" stop="20180619180500 +0200">
+	<title lang="ro">Detectivi in halate albe</title>
+	<title lang="hu">Nyomoz. orvosok</title>
+	<desc lang="ro">(sua, 2001, s. doc., sezonul 6, episodul 23) Cu: Lisa Adams, Richard...</desc>
+	<desc lang="hu">(am. dok. sor., VI./23. r.sz, 2001) R.: Michael Jordan, Sovanna Mam,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180619175000 +0200" stop="20180619210000 +0200">
+	<title lang="en">Colosseum Tournament - Vikings, Bucharest, Romania</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180619180000 +0200" stop="20180619190000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619180500 +0200" stop="20180619183000 +0200">
+	<title lang="ro">Primele 42 de zile</title>
+	<title lang="hu">Sz.l.szoba</title>
+	<desc lang="ro">(can., 2006, mini.s. doc., sezonul 1, episodul 22) Emisiunea prezinta...</desc>
+	<desc lang="hu">(kan. dokureality-sor., I./22. r.sz, 2006) R.: Beth Shuman, Dennis...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180619183000 +0200" stop="20180619192000 +0200">
+	<title lang="ro">Vecini de cosmar</title>
+	<title lang="hu">R.mes szomsz.dok</title>
+	<desc lang="ro">(engl., 2014, mini.s. doc., sezonul 2, episodul 6) Aceasta noua emisiune...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./6. r.sz, 2014) A sorozat felt.rk.pezi a...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180619190000 +0200" stop="20180619200000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619192000 +0200" stop="20180619201000 +0200">
+	<title lang="ro">Case de amanet din Marea Britanie</title>
+	<title lang="hu">Deal Makers: A z.logosok</title>
+	<desc lang="ro">(reality show, sezonul 2, episodul 12) In aceasta emisiune se amaneteaza...</desc>
+	<desc lang="hu">(val.s.gshow, II./12. r.sz)</desc>
+	<category lang="en">Show</category>
+</programme>
+<programme channel="a040" start="20180619200000 +0200" stop="20180619210000 +0200">
+	<title lang="en">Music Bash</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619201000 +0200" stop="20180619203500 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 2010, emis. info., sezonul 14, episodul 203) Judecatoarea Judy...</desc>
+	<desc lang="hu">(am. dokumentumf., XIV./203. r.sz, 2010)</desc>
+	<category lang="en">News</category>
+</programme>
+<programme channel="a039" start="20180619203500 +0200" stop="20180619210000 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 2010, emis. info., sezonul 14, episodul 204) Judecatoarea Judy...</desc>
+	<desc lang="hu">(am. dokumentumf., XIV./204. r.sz, 2010)</desc>
+	<category lang="en">News</category>
+</programme>
+<programme channel="a039" start="20180619210000 +0200" stop="20180619215000 +0200">
+	<title lang="ro">Cu sange-rece</title>
+	<title lang="hu">Hidegv.rrel</title>
+	<desc lang="ro">(f. doc., sezonul 6, episodul 7) Aceasta emisiune arata cum decurg...</desc>
+	<desc lang="hu">(kan. dokumentumf., VI./7. r.sz)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180619210000 +0200" stop="20180619220000 +0200">
+	<title lang="en">Ultimate FightBox Armageddon</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180619210000 +0200" stop="20180619220000 +0200">
+	<title lang="en">Music Bash</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619215000 +0200" stop="20180619224000 +0200">
+	<title lang="ro">Pacate si secrete</title>
+	<title lang="hu">B.n.k .s titkok</title>
+	<desc lang="ro">(sua, s. politist, sezonul 1, episodul 27) Pacate si Secrete prezinta...</desc>
+	<desc lang="hu">(am. krimisor., I./27. r.sz)</desc>
+	<category lang="en">Movie/Drama</category>
+</programme>
+<programme channel="a040" start="20180619220000 +0200" stop="20180619230000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180619220000 +0200" stop="20180620002000 +0200">
+	<title lang="en">Thunderstrike Fight League 13</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619224000 +0200" stop="20180619233000 +0200">
+	<title lang="ro">Investigatii paranormale</title>
+	<title lang="hu">T.lvil.gi oknyomoz.k</title>
+	<desc lang="ro">(engl., 2006, mini.s. doc., sezonul 1, episodul 12) Detectivii...</desc>
+	<desc lang="hu">(angol dokureality-sor., I./12. r.sz, 2006) Nagy-Britannia legismertebb...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180619230000 +0200" stop="20180620035900 +0200">
+	<title lang="en">Fresh Out The Box</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180619233000 +0200" stop="20180620002500 +0200">
+	<title lang="ro">Cu sange rece</title>
+	<title lang="hu">Hidegv.rrel</title>
+	<desc lang="ro">(can., 2008, s. doc., sezonul 7, episodul 11) A fost comisa o crima, dar...</desc>
+	<desc lang="hu">(kan. dok. sor., VII./11. r.sz, 2008) R.: Karl Jason, P.J. Naworynski,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620000000 +0200" stop="20180620230000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180620002000 +0200" stop="20180620015000 +0200">
+	<title lang="en">Ultimate Combat Experience - UCE</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620002500 +0200" stop="20180620011500 +0200">
+	<title lang="ro">Infidelitati</title>
+	<title lang="hu">H.tlen h.zast.rsak</title>
+	<desc lang="ro">(sua, 2000, reality show, sezonul 14, episodul 11) R.: John McCalmont,...</desc>
+	<desc lang="hu">(am. reality show, XIV./11. r.sz, 2000) R.: Kenneth M. Smith Jr., John...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620010000 +0200" stop="20180621000100 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620011500 +0200" stop="20180620014000 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, 2008, f. doc., sezonul 1, episodul 3) Cu: Matt Burch, Lou Pizarro,...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./3. r.sz, 2008)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180620014000 +0200" stop="20180620023000 +0200">
+	<title lang="ro">Pacate si secrete</title>
+	<title lang="hu">B.n.k .s titkok</title>
+	<desc lang="ro">(sua, s. politist, sezonul 1, episodul 27) Pacate si Secrete prezinta...</desc>
+	<desc lang="hu">(am. krimisor., I./27. r.sz)</desc>
+	<category lang="en">Movie/Drama</category>
+</programme>
+<programme channel="a045" start="20180620015000 +0200" stop="20180620032500 +0200">
+	<title lang="en">Fighting Rookies</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180620020000 +0200" stop="20180620030000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620023000 +0200" stop="20180620032000 +0200">
+	<title lang="ro">Cu sange-rece</title>
+	<title lang="hu">Hidegv.rrel</title>
+	<desc lang="ro">(f. doc., sezonul 6, episodul 7) Aceasta emisiune arata cum decurg...</desc>
+	<desc lang="hu">(kan. dokumentumf., VI./7. r.sz)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620030000 +0200" stop="20180620040000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620032000 +0200" stop="20180620034000 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 1996, s. reality show, sezonul 13, episodul 129) R.: Jerry...</desc>
+	<desc lang="hu">(am. reality-sor., XIII./129. r.sz, 1996) Judy b.r.n. sz.kimond.,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180620032500 +0200" stop="20180620043500 +0200">
+	<title lang="en">Cage contender</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620034000 +0200" stop="20180620040500 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 1996, s. reality show, sezonul 13, episodul 130) R.: Jerry...</desc>
+	<desc lang="hu">(am. reality-sor., XIII./130. r.sz, 1996) Judy b.r.n. sz.kimond.,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620040000 +0200" stop="20180620050000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620040500 +0200" stop="20180620042500 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 1996, s. reality show, sezonul 13, episodul 131) R.: Jerry...</desc>
+	<desc lang="hu">(am. reality-sor., XIII./131. r.sz, 1996) Judy b.r.n. sz.kimond.,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180620042500 +0200" stop="20180620051000 +0200">
+	<title lang="ro">Povestea Tanyei Donaldson</title>
+	<title lang="hu">A 21 .ves csecsem.</title>
+	<desc lang="ro">(f. doc.) Povestea Tanyei Donaldson, care sufera de o boala rara ce a...</desc>
+	<desc lang="hu">(am. dokumentumf., 2006)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180620043500 +0200" stop="20180620050000 +0200">
+	<title lang="en">Xtreme Fighting Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180620050000 +0200" stop="20180620060000 +0200">
+	<title lang="en">Bounce &amp; fun</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180620050000 +0200" stop="20180620051500 +0200">
+	<title lang="en">WUSHU Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620051000 +0200" stop="20180620053500 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, 2008, f. doc., sezonul 1, episodul 7) De la yahturi luxoase si...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./7. r.sz, 2008)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180620051500 +0200" stop="20180620053000 +0200">
+	<title lang="en">Taekwondo</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180620053000 +0200" stop="20180620054500 +0200">
+	<title lang="en">Japan Queen Tournament</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620053500 +0200" stop="20180620060000 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, f. doc., sezonul 1, episodul 8) De la yahturi luxoase si masini...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./8. r.sz, 2008)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180620054500 +0200" stop="20180620061500 +0200">
+	<title lang="en">Osaka Funny Wrestling</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620060000 +0200" stop="20180620065000 +0200">
+	<title lang="ro">Case de amanet din Marea Britanie</title>
+	<title lang="hu">Deal Makers: A z.logosok</title>
+	<desc lang="ro">(reality show, sezonul 2, episodul 13) In aceasta emisiune se amaneteaza...</desc>
+	<desc lang="hu">(val.s.gshow, II./13. r.sz)</desc>
+	<category lang="en">Show</category>
+</programme>
+<programme channel="a040" start="20180620060000 +0200" stop="20180620070000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180620061500 +0200" stop="20180620063000 +0200">
+	<title lang="en">WUSHU Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180620063000 +0200" stop="20180620064500 +0200">
+	<title lang="en">Taekwondo</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180620064500 +0200" stop="20180620070000 +0200">
+	<title lang="en">Japan Queen Tournament</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620065000 +0200" stop="20180620074000 +0200">
+	<title lang="ro">In lupta cu gunoaiele</title>
+	<title lang="hu">K.rnyezetszennyez.k</title>
+	<desc lang="ro">(engl., s. doc., sezonul 2, episodul 8) Serial documentar care...</desc>
+	<desc lang="hu">(angol dok. sor., II./8. r.sz) R.: Gareth Rowlands, Andrew Miles, Josh...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620070000 +0200" stop="20180620080000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180620070000 +0200" stop="20180620091500 +0200">
+	<title lang="en">King of Kings Heroes Grand Prix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620074000 +0200" stop="20180620083000 +0200">
+	<title lang="ro">Vecini de cosmar</title>
+	<title lang="hu">R.mes szomsz.dok</title>
+	<desc lang="ro">(engl., 2014, mini.s. doc., sezonul 2, episodul 7) Aceasta noua emisiune...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./7. r.sz, 2014) A sorozat felt.rk.pezi a...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620080000 +0200" stop="20180620090000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620083000 +0200" stop="20180620085500 +0200">
+	<title lang="ro">In flagrant delict</title>
+	<title lang="hu">Tetten .rve</title>
+	<desc lang="ro">(engl., 2013, mini.s. doc., sezonul 2, episodul 15) Seria 3 urmareste...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./15. r.sz, 2013) Dom Littlewood bepillant.st...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180620085500 +0200" stop="20180620092000 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, f. doc., sezonul 1, episodul 9) De la yahturi luxoase si masini...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./9. r.sz, 2007)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620090000 +0200" stop="20180620100000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180620091500 +0200" stop="20180620122500 +0200">
+	<title lang="en">Colosseum Tournament - Vikings, Bucharest, Romania</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620092000 +0200" stop="20180620094500 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, f. doc., sezonul 1, episodul 10) De la yahturi luxoase si masini...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./10. r.sz, 2007)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180620094500 +0200" stop="20180620103500 +0200">
+	<title lang="ro">Nasteri mai putin obisnuite</title>
+	<title lang="hu">Bab.k: K.l.nleges sz.let.sek</title>
+	<desc lang="ro">(sua-can., s. doc., sezonul 2, episodul 6) Realizatorii acestei serii...</desc>
+	<desc lang="hu">(am.-kan. dok. sor., II./6. r.sz) 8 m.sodpercenk.nt sz.letik egy baba az...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620100000 +0200" stop="20180620110000 +0200">
+	<title lang="en">Flow</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620103500 +0200" stop="20180620110000 +0200">
+	<title lang="ro">Primele 42 de zile</title>
+	<title lang="hu">Sz.l.szoba</title>
+	<desc lang="ro">(can., 2006, mini.s. doc., sezonul 1, episodul 23) Emisiunea prezinta...</desc>
+	<desc lang="hu">(kan. dokureality-sor., I./23. r.sz, 2006) R.: Beth Shuman, Dennis...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620110000 +0200" stop="20180620120000 +0200">
+	<title lang="en">Artist Breakout</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620110000 +0200" stop="20180620112500 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 2010, emis. info., sezonul 14, episodul 205) Judecatoarea Judy...</desc>
+	<desc lang="hu">(am. dokumentumf., XIV./205. r.sz, 2010)</desc>
+	<category lang="en">News</category>
+</programme>
+<programme channel="a039" start="20180620112500 +0200" stop="20180620115000 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 2010, emis. info., sezonul 14, episodul 206) Judecatoarea Judy...</desc>
+	<desc lang="hu">(am. dokumentumf., XIV./206. r.sz, 2010)</desc>
+	<category lang="en">News</category>
+</programme>
+<programme channel="a039" start="20180620115000 +0200" stop="20180620121500 +0200">
+	<title lang="ro">Detectivi in halate albe</title>
+	<title lang="hu">Nyomoz. orvosok</title>
+	<desc lang="ro">(sua, 2001, s. doc., sezonul 6, episodul 24) Cu: John Crodelle, Francis...</desc>
+	<desc lang="hu">(am. dok. sor., VI./24. r.sz, 2001) R.: Michael Jordan, Sovanna Mam,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620120000 +0200" stop="20180620130000 +0200">
+	<title lang="en">Artist Breakout</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620121500 +0200" stop="20180620130500 +0200">
+	<title lang="ro">Case de amanet din Marea Britanie</title>
+	<title lang="hu">Deal Makers: A z.logosok</title>
+	<desc lang="ro">(reality show, sezonul 2, episodul 13) In aceasta emisiune se amaneteaza...</desc>
+	<desc lang="hu">(val.s.gshow, II./13. r.sz)</desc>
+	<category lang="en">Show</category>
+</programme>
+<programme channel="a045" start="20180620122500 +0200" stop="20180620133000 +0200">
+	<title lang="en">NEW Extreme IV</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180620130000 +0200" stop="20180620140000 +0200">
+	<title lang="en">Artist Breakout</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620130500 +0200" stop="20180620135500 +0200">
+	<title lang="ro">In lupta cu gunoaiele</title>
+	<title lang="hu">K.rnyezetszennyez.k</title>
+	<desc lang="ro">(engl., s. doc., sezonul 2, episodul 8) Serial documentar care...</desc>
+	<desc lang="hu">(angol dok. sor., II./8. r.sz) R.: Gareth Rowlands, Andrew Miles, Josh...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180620133000 +0200" stop="20180620134500 +0200">
+	<title lang="en">Taekwondo</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180620134500 +0200" stop="20180620171500 +0200">
+	<title lang="en">Siesta Boxing Terminator The Homecoming</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620135500 +0200" stop="20180620142000 +0200">
+	<title lang="ro">In flagrant delict</title>
+	<title lang="hu">Tetten .rve</title>
+	<desc lang="ro">(engl., 2013, mini.s. doc., sezonul 2, episodul 15) Seria 3 urmareste...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./15. r.sz, 2013) Dom Littlewood bepillant.st...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620140000 +0200" stop="20180620150000 +0200">
+	<title lang="en">Street Buzz</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620142000 +0200" stop="20180620151000 +0200">
+	<title lang="ro">Vecini de cosmar</title>
+	<title lang="hu">R.mes szomsz.dok</title>
+	<desc lang="ro">(engl., 2014, mini.s. doc., sezonul 2, episodul 7) Aceasta noua emisiune...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./7. r.sz, 2014) A sorozat felt.rk.pezi a...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620150000 +0200" stop="20180620160000 +0200">
+	<title lang="en">Street Buzz</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620151000 +0200" stop="20180620153500 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 1996, s. reality show, sezonul 12, episodul 25) R.: Jerry...</desc>
+	<desc lang="hu">(am. reality-sor., XII./25. r.sz, 1996) Judy b.r.n. sz.kimond.,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180620153500 +0200" stop="20180620160000 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 1996, s. reality show, sezonul 12, episodul 26) R.: Jerry...</desc>
+	<desc lang="hu">(am. reality-sor., XII./26. r.sz, 1996) Judy b.r.n. sz.kimond.,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180620160000 +0200" stop="20180620165000 +0200">
+	<title lang="ro">Nasteri mai putin obisnuite</title>
+	<title lang="hu">Bab.k: K.l.nleges sz.let.sek</title>
+	<desc lang="ro">(sua-can., s. doc., sezonul 2, episodul 6) Realizatorii acestei serii...</desc>
+	<desc lang="hu">(am.-kan. dok. sor., II./6. r.sz) 8 m.sodpercenk.nt sz.letik egy baba az...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620160000 +0200" stop="20180620170000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620165000 +0200" stop="20180620171500 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, f. doc., sezonul 1, episodul 9) De la yahturi luxoase si masini...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./9. r.sz, 2007)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620170000 +0200" stop="20180620180000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180620171500 +0200" stop="20180620190000 +0200">
+	<title lang="en">Superkombat Fighting Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620171500 +0200" stop="20180620174000 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, f. doc., sezonul 1, episodul 10) De la yahturi luxoase si masini...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./10. r.sz, 2007)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180620174000 +0200" stop="20180620180500 +0200">
+	<title lang="ro">Detectivi in halate albe</title>
+	<title lang="hu">Nyomoz. orvosok</title>
+	<desc lang="ro">(sua, 2001, s. doc., sezonul 6, episodul 24) Cu: John Crodelle, Francis...</desc>
+	<desc lang="hu">(am. dok. sor., VI./24. r.sz, 2001) R.: Michael Jordan, Sovanna Mam,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620180000 +0200" stop="20180620190000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620180500 +0200" stop="20180620183000 +0200">
+	<title lang="ro">Primele 42 de zile</title>
+	<title lang="hu">Sz.l.szoba</title>
+	<desc lang="ro">(can., 2006, mini.s. doc., sezonul 1, episodul 23) Emisiunea prezinta...</desc>
+	<desc lang="hu">(kan. dokureality-sor., I./23. r.sz, 2006) R.: Beth Shuman, Dennis...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180620183000 +0200" stop="20180620192000 +0200">
+	<title lang="ro">Vecini de cosmar</title>
+	<title lang="hu">R.mes szomsz.dok</title>
+	<desc lang="ro">(engl., 2014, mini.s. doc., sezonul 2, episodul 7) Aceasta noua emisiune...</desc>
+	<desc lang="hu">(angol dokureality-sor., II./7. r.sz, 2014) A sorozat felt.rk.pezi a...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620190000 +0200" stop="20180620200000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180620190000 +0200" stop="20180620212000 +0200">
+	<title lang="en">FightBox King of Kings Heroes Series 02.12.2017</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620192000 +0200" stop="20180620201000 +0200">
+	<title lang="ro">Case de amanet din Marea Britanie</title>
+	<title lang="hu">Deal Makers: A z.logosok</title>
+	<desc lang="ro">(reality show, sezonul 2, episodul 13) In aceasta emisiune se amaneteaza...</desc>
+	<desc lang="hu">(val.s.gshow, II./13. r.sz)</desc>
+	<category lang="en">Show</category>
+</programme>
+<programme channel="a040" start="20180620200000 +0200" stop="20180620210000 +0200">
+	<title lang="en">Totally Indie</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620201000 +0200" stop="20180620203500 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 2010, emis. info., sezonul 14, episodul 205) Judecatoarea Judy...</desc>
+	<desc lang="hu">(am. dokumentumf., XIV./205. r.sz, 2010)</desc>
+	<category lang="en">News</category>
+</programme>
+<programme channel="a039" start="20180620203500 +0200" stop="20180620210000 +0200">
+	<title lang="ro">Judecatoarea Judy</title>
+	<title lang="hu">Judy b.r.n.</title>
+	<desc lang="ro">(sua, 2010, emis. info., sezonul 14, episodul 206) Judecatoarea Judy...</desc>
+	<desc lang="hu">(am. dokumentumf., XIV./206. r.sz, 2010)</desc>
+	<category lang="en">News</category>
+</programme>
+<programme channel="a040" start="20180620210000 +0200" stop="20180620220000 +0200">
+	<title lang="en">Totally Indie</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620210000 +0200" stop="20180620215000 +0200">
+	<title lang="ro">Cu sange-rece</title>
+	<title lang="hu">Hidegv.rrel</title>
+	<desc lang="ro">(f. doc., sezonul 6, episodul 8) Aceasta emisiune arata cum decurg...</desc>
+	<desc lang="hu">(kan. dokumentumf., VI./8. r.sz)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a045" start="20180620212000 +0200" stop="20180620230500 +0200">
+	<title lang="en">King of Kings Heroes Grand Prix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620215000 +0200" stop="20180620224000 +0200">
+	<title lang="ro">Pacate si secrete</title>
+	<title lang="hu">B.n.k .s titkok</title>
+	<desc lang="ro">(sua, s. politist, sezonul 1, episodul 28) Pacate si Secrete prezinta...</desc>
+	<desc lang="hu">(am. krimisor., I./28. r.sz)</desc>
+	<category lang="en">Movie/Drama</category>
+</programme>
+<programme channel="a040" start="20180620220000 +0200" stop="20180620230000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620224000 +0200" stop="20180620233000 +0200">
+	<title lang="ro">Investigatii paranormale</title>
+	<title lang="hu">T.lvil.gi oknyomoz.k</title>
+	<desc lang="ro">(engl., 2006, mini.s. doc., sezonul 1, episodul 13) Detectivii...</desc>
+	<desc lang="hu">(angol dokureality-sor., I./13. r.sz, 2006) Nagy-Britannia legismertebb...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180620230000 +0200" stop="20180621035900 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180620230500 +0200" stop="20180621001500 +0200">
+	<title lang="en">Hip Show</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180620233000 +0200" stop="20180621002500 +0200">
+	<title lang="ro">Cu sange rece</title>
+	<title lang="hu">Hidegv.rrel</title>
+	<desc lang="ro">(can., 2008, s. doc., sezonul 7, episodul 12) A fost comisa o crima, dar...</desc>
+	<desc lang="hu">(kan. dok. sor., VII./12. r.sz, 2008) R.: Karl Jason, P.J. Naworynski,...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180621000000 +0200" stop="20180621230000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621001500 +0200" stop="20180621014000 +0200">
+	<title lang="en">Superkombat Fighting Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180621002500 +0200" stop="20180621011500 +0200">
+	<title lang="ro">Infidelitati</title>
+	<title lang="hu">H.tlen h.zast.rsak</title>
+	<desc lang="ro">(sua, 2000, reality show, sezonul 14, episodul 12) R.: John McCalmont,...</desc>
+	<desc lang="hu">(am. reality show, XIV./12. r.sz, 2000) R.: Kenneth M. Smith Jr., John...</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a040" start="20180621010000 +0200" stop="20180622000100 +0200">
+	<title lang="en">Fresh Out The Box</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a039" start="20180621011500 +0200" stop="20180621014000 +0200">
+	<title lang="ro">Recuperatorii din San Fernando Valley</title>
+	<title lang="hu">A behajt.k</title>
+	<desc lang="ro">(sua, 2008, f. doc., sezonul 1, episodul 4) Cu: Matt Burch, Lou Pizarro,...</desc>
+	<desc lang="hu">(am. sz.r. m.sor, I./4. r.sz, 2008)</desc>
+	<category lang="en">Education/Science</category>
+</programme>
+<programme channel="a039" start="20180621014000 +0200" stop="20180621023000 +0200">
+	<title lang="ro">Pacate si secrete</title>
+	<title lang="hu">B.n.k .s titkok</title>
+	<desc lang="ro">(sua, s. politist, sezonul 1, episodul 28) Pacate si Secrete prezinta...</desc>
+	<desc lang="hu">(am. krimisor., I./28. r.sz)</desc>
+	<category lang="en">Movie/Drama</category>
+</programme>
+<programme channel="a045" start="20180621014000 +0200" stop="20180621040000 +0200">
+	<title lang="en">Thunderstrike Fight League 13</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621020000 +0200" stop="20180621030000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621030000 +0200" stop="20180621040000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621040000 +0200" stop="20180621050000 +0200">
+	<title lang="en">Ultimate FightBox Armageddon</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621040000 +0200" stop="20180621050000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621050000 +0200" stop="20180621051500 +0200">
+	<title lang="en">Osaka Funny Wrestling</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621050000 +0200" stop="20180621060000 +0200">
+	<title lang="en">Flow</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621051500 +0200" stop="20180621053000 +0200">
+	<title lang="en">WUSHU Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621053000 +0200" stop="20180621054500 +0200">
+	<title lang="en">Taekwondo</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621054500 +0200" stop="20180621061000 +0200">
+	<title lang="en">Japan Queen Tournament</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621060000 +0200" stop="20180621070000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621061000 +0200" stop="20180621062500 +0200">
+	<title lang="en">Osaka Funny Wrestling</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621062500 +0200" stop="20180621064000 +0200">
+	<title lang="en">WUSHU Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621064000 +0200" stop="20180621070000 +0200">
+	<title lang="en">Taekwondo</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621070000 +0200" stop="20180621080000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621070000 +0200" stop="20180621084500 +0200">
+	<title lang="en">Superkombat Fighting Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621080000 +0200" stop="20180621090000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621084500 +0200" stop="20180621110000 +0200">
+	<title lang="en">NEW War</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621090000 +0200" stop="20180621100000 +0200">
+	<title lang="en">Morning Spin</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621100000 +0200" stop="20180621110000 +0200">
+	<title lang="en">Rough Riff</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621110000 +0200" stop="20180621120000 +0200">
+	<title lang="en">Artist Breakout</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621110000 +0200" stop="20180621133000 +0200">
+	<title lang="en">LNK Boxing Night 7, Arena Riga</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621120000 +0200" stop="20180621130000 +0200">
+	<title lang="en">Artist Breakout</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621130000 +0200" stop="20180621140000 +0200">
+	<title lang="en">Artist Breakout</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621133000 +0200" stop="20180621134500 +0200">
+	<title lang="en">WUSHU Championship</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621134500 +0200" stop="20180621154000 +0200">
+	<title lang="en">World Karate Federation 2016</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621140000 +0200" stop="20180621150000 +0200">
+	<title lang="en">Electric Jam</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621150000 +0200" stop="20180621160000 +0200">
+	<title lang="en">Electric Jam</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621154000 +0200" stop="20180621180000 +0200">
+	<title lang="en">NEW High Explosive</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621160000 +0200" stop="20180621170000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621170000 +0200" stop="20180621180000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621180000 +0200" stop="20180621190000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621180000 +0200" stop="20180621210000 +0200">
+	<title lang="en">Colosseum Tournament - Vikings, Bucharest, Romania</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621190000 +0200" stop="20180621200000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621200000 +0200" stop="20180621210000 +0200">
+	<title lang="en">Street Buzz</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621210000 +0200" stop="20180621215000 +0200">
+	<title lang="en">Fighting Rookies</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621210000 +0200" stop="20180621220000 +0200">
+	<title lang="en">Street Buzz</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621215000 +0200" stop="20180621222000 +0200">
+	<title lang="en">All Japan Pro Wrestling - AJPW</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621220000 +0200" stop="20180621230000 +0200">
+	<title lang="en">Ultra Mix</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180621222000 +0200" stop="20180622000000 +0200">
+	<title lang="en">Bangkok Fight Night</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180621230000 +0200" stop="20180622035900 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a045" start="20180622000000 +0200" stop="20180622022000 +0200">
+	<title lang="en">FightBox King of Kings Heroes Series Vilnus 18.11.2017</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180622000000 +0200" stop="20180622230000 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+<programme channel="a040" start="20180622010000 +0200" stop="20180623000100 +0200">
+	<title lang="en">Nite Sides</title>
+	<desc lang="en">.</desc>
+</programme>
+</tv>
+
+
+
