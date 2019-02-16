@@ -9,6 +9,9 @@ layout: base
 				<li class="post-meta-item">
 						<time datetime="{{ item.date | date_to_xmlschema }}" itemprop="datePublished">{{ item.date | date: "%b %-d, %Y" }}</time>
 				</li>
+				<header class="mb-5">
+					<h1>{{ page.title | escape }}</h1>
+				</header>
 				<li class="post-meta-item">
 					<a href="#disqus_thread" data-disqus-identifier="{{ post.disqus_id }}">Комментариев</a>
 				</li>
