@@ -1,0 +1,161 @@
+$(document).ready(function(){});;
+/*
+ * jQuery Cookie Plugin v1.3.1
+ * https://github.com/carhartl/jquery-cookie
+ *
+ */
+
+var id_yzel=0;
+function floornomer(){
+var i=0;$('#activfloor .yzel').each(function(){i++;});
+var j=i;$('#activfloor .yzel').each(function(){$(this).find('#floor-nomer span').text(j);j--;});}
+$(document)
+.ready(function(){$('.input-select')
+.live('change',function(){var yzel=$(this)
+.parents(".yzel");$('.tv-otvet') 	
+.addClass('disable');
+yzel.find('#table-otvetvit tr')
+.html("<td class='th tv-otvet disable'>"+$('#floor-th').html()+"</td>");
+id=$(this).find("option:selected").val();
+for(i=0;i<otvetv[id][1];i++){
+yzel.find('#table-otvetvit tr')
+.append("<td class='tv-otvet disable' id='ot_"+i+"'>"+$('#floor-otvetvlenie').html()+"</td>");
+yzel.find('#ot_'+i+' #numberotv').text(i+1);}
+$(this).closest('.coupler').prop('class','coupler').addClass('out'+otvetv[id][4]);});
+$(".tv input").live('change',function(){$('.tv-otvet').addClass('disable');});
+$(".addfloor").live('click',function(){$('.tv-otvet').addClass('disable');
+$(this).closest('.yzel').after($("#floor").html());
+$('#yzel_'+id_yzel+' #floor-input-select-otvetv').change();
+$("#floor").find(".yzel").attr("id","");id_yzel++;floornomer();
+var i=-1;
+$('#activfloor .number-floor').each(function(){i++;$(this).text('№ '+i);});});
+$("#addfloor").click(function(){$('.tv-otvet').addClass('disable');
+$("#floor").find(".yzel").attr("id","yzel_"+id_yzel);
+$('#activfloor').prepend($("#floor").html());$('#yzel_'+id_yzel+' #floor-input-select-otvetv').change();
+$("#floor").find(".yzel").attr("id","");id_yzel++;floornomer();
+var i=-1;
+$('#activfloor .number-floor').each(function(){i++;$(this).text('№ '+i);});});
+$("#yzel-delete").live('click',function(){$(this).parents('.yzel').remove();floornomer();
+var i=-1;
+$('#activfloor .number-floor').each(function(){i++;$(this).text('№ '+i);});});
+var optionsel="";
+var type_ob="";
+$.each(otvetv,function(index,value){if(value[0]=='LANS 1-6'){optionsel+="<option value='"+index+"' selected>"+value[0]+"</option>";}
+else{optionsel+="<option value='"+index+"'>"+value[0]+"</option>";}});
+$("#floor-input-select-otvetv").append(optionsel);
+var cabelval="";
+var type_ob="";
+$.each(cabel,function(index,value){cabelval+="<option value='"+index+"'>"+value[0]+"</option>";});
+$("#cabel_po_stoyky").append(cabelval);
+$("#cabel_ot_otvet_do_rozetok").append(cabelval);
+$('.calculate').live('click',function(){var i=0;
+var na50Hz=$("#upna50").val();
+var na865Hz=$("#upna865").val();
+$('.tv-otvet').removeClass('disable');
+$(".main .yzel").each(function(){
+na50Hz=na50Hz-$(this).find("#dlina_mag_cabel").val()*((cabel[$("#cabel_po_stoyky option:selected").val()][1])/100);
+na865Hz=na865Hz-$(this).find("#dlina_mag_cabel").val()*((cabel[$("#cabel_po_stoyky option:selected").val()][2])/100);
+id_otv=$(this).find("#floor-input-select-otvetv option:selected").val();
+console.log($(this).find("#floor-input-select-otvetv option:selected").val());
+if(id_otv==5){alert("Не Выбрана модель ответвителя");return false;}
+else{var na50Hzpocleot=na50Hz-otvetv[id_otv][2][0];var na865Hzpocleot=na865Hz-otvetv[id_otv][2][1];
+$(this).find("#table-otvetvit td:not(.th)").each(function(){
+var var1=na50Hzpocleot-$(this).find("#dlina_normal_cabel").val()*((cabel[$("#cabel_ot_otvet_do_rozetok option:selected").val()][1])/100);
+var var2=na865Hzpocleot-$(this).find("#dlina_normal_cabel").val()*((cabel[$("#cabel_ot_otvet_do_rozetok option:selected").val()][2])/100);
+$(this).find("#hz50").css("backgroundColor","#e3edf2").css('color','black');
+$(this).find("#hz865").css("backgroundColor","#e3edf2").css('color','black');
+if(var1<=67.5||var1>=75)$(this).find("#hz50").css("backgroundColor","FF0000").css('color','white');
+if(var2<=67.5||var2>=75)$(this).find("#hz865").css("backgroundColor","FF0000").css('color','white');
+if(var1<68&&var1>67.5)$(this).find("#hz50").css("backgroundColor","FFFF00").css('color','white');
+if(var1<75&&var1>73)$(this).find("#hz50").css("backgroundColor","FFFF00").css('color','white');
+if(var2<68&&var2>67.5)$(this).find("#hz865").css("backgroundColor","FFFF00").css('color','white');
+if(var2<75&&var2>73)$(this).find("#hz865").css("backgroundColor","FFFF00").css('color','white');
+if(var1<=73&&var1>=68)$(this).find("#hz50").css("backgroundColor","00FF00").css('color','white');
+if(var2<=73&&var2>=68)$(this).find("#hz865").css("backgroundColor","00FF00").css('color','white');
+$(this).find("#hz50").text(Math.floor(var1*100)/100);
+$(this).find("#hz865").text(Math.floor(var2*100)/100);});}
+na50Hz=na50Hz-otvetv[id_otv][3][0]
+na865Hz=na865Hz-otvetv[id_otv][3][1];})});});;
+$(document).ready(function(){
+$('.button-open-tvspoiler').click(function(){var _this=$(this);
+$(this).closest('.tvspoiler').find('.tvspoiler-text-body').toggle('showOrHide',function(){_this.toggleClass('open','addOrRemove');});});
+$('body').on('change','.js-select-otv',function(){var text=$(this).find('option:selected').text();
+var val=$(this).find('option:selected').val();
+$(this).closest('.js-floor').addClass('floor-'+otvetv[val][1]);});
+$('body').on('click','.js-deleted-level',function(){if($('.js-floors .js-floor').length>1){$(this).closest('.js-floor').remove();}});});
+var otvetv=[
+["Выберите модель",0,[0,0],[0,0],5,"Ответвители"],
+["SNR-T-106 tap↓",1,[3.5,3.5],[6.0,6.0],-1,"Ответвители"],
+["SNR-T-108 tap↓",1,[2.5,2.5],[8.0,8.0],-1,"Ответвители"],
+["SNR-T-110 tap↓",1,[1.5,1.5],[10.0,10.0],-1,"Ответвители"],
+["SNR-T-112 tap↓",1,[1.0,1.0],[12.0,12.0],-1,"Ответвители"],
+["SNR-T-114 tap↓",1,[1.0,1.0],[14.0,14.0],-1,"Ответвители"],
+["SNR-T-118 tap↓",1,[1.0,1.0],[18.0,18.0],-1,"Ответвители"],
+["SNR-T-120 tap↓",1,[0.8,0.8],[20.0,20.0],-1,"Ответвители"],
+["SNR-T-208 tap↓",1,[4.0,4.0],[8.0,8.0],-2,"Ответвители"],
+["SNR-T-210 tap↓",1,[3.7,3.7],[10.0,10.0],-2,"Ответвители"],
+["SNR-T-212 tap↓",1,[2.5,2.5],[12.0,12.0],-2,"Ответвители"],
+["SNR-T-214 tap↓",1,[2.5,2.5],[14.0,14.0],-2,"Ответвители"],
+["SNR-T-216 tap↓",1,[1.5,1.5],[16.0,16.0],-2,"Ответвители"],
+["SNR-T-218 tap↓",1,[1.0,1.0],[18.0,18.0],-2,"Ответвители"],
+["SNR-T-220 tap↓",1,[1.0,1.0],[20.0,20.0],-2,"Ответвители"],
+["SNR-T-308 tap↓",1,[5.0,5.0],[8.0,8.0],-3,"Ответвители"],
+["SNR-T-310 tap↓",1,[4.0,4.0],[10.0,10.0],-3,"Ответвители"],
+["SNR-T-312 tap↓",1,[4.0,4.0],[12.0,12.0],-3,"Ответвители"],
+["SNR-T-314 tap↓",1,[3.8,3.8],[14.0,14.0],-3,"Ответвители"],
+["SNR-T-316 tap↓",1,[1.5,1.5],[16.0,16.0],-3,"Ответвители"],
+["SNR-T-318 tap↓",1,[1.5,1.5],[18.0,18.0],-3,"Ответвители"],
+["SNR-T-320 tap↓",1,[1.0,1.0],[20.0,20.0],-3,"Ответвители"],
+
+["SNR-SPLT2  делитель",1,[4.0,4.0],[4.0,4.0],1,"Ответвители"],
+["SNR-SPLT3  делитель",2,[6.0,6.0],[6.0,6.0],2,"Ответвители"],
+["SNR-SPLT4  делитель",3,[8.0,8.0],[8.0,8.0],3,"Ответвители"],
+
+["SNR-T-106 tap→",1,[6.0,6.0],[3.5,3.5],1,"Ответвители"],
+["SNR-T-108 tap→",1,[8.0,8.0],[2.5,2.5],1,"Ответвители"],
+["SNR-T-110 tap→",1,[10.0,10.0],[1.5,1.5],1,"Ответвители"],
+["SNR-T-112 tap→",1,[12.0,12.0],[1.0,1.0],1,"Ответвители"],
+["SNR-T-114 tap→",1,[14.0,14.0],[1.0,1.0],1,"Ответвители"],
+["SNR-T-118 tap→",1,[18.0,18.0],[1.0,1.0],1,"Ответвители"],
+["SNR-T-120 tap→",1,[20.0,20.0],[0.8,0.8],1,"Ответвители"],
+["SNR-T-122 tap→",1,[22.0,22.0],[0.8,0.8],1,"Ответвители"],
+["SNR-T-124 tap→",1,[24.0,24.0],[0.5,0.5],1,"Ответвители"],
+["SNR-T-126 tap→",1,[26.0,26.0],[0.5,0.5],1,"Ответвители"],
+["SNR-T-128 tap→",1,[28.0,28.0],[0.5,0.5],1,"Ответвители"],
+["SNR-T-208 tap→",2,[8.0,8.0],[4.0,4.0],2,"Ответвители"],
+["SNR-T-210 tap→",2,[10.0,10.0],[3.7,3.7],2,"Ответвители"],
+["SNR-T-212 tap→",2,[12.0,12.0],[2.5,2.5],2,"Ответвители"],
+["SNR-T-214 tap→",2,[14.0,14.0],[2.5,2.5],2,"Ответвители"],
+["SNR-T-216 tap→",2,[16.0,16.0],[1.5,1.5],2,"Ответвители"],
+["SNR-T-218 tap→",2,[18.0,18.0],[1.0,1.0],2,"Ответвители"],
+["SNR-T-220 tap→",2,[20.0,20.0],[1.0,1.0],2,"Ответвители"],
+["SNR-T-222 tap→",2,[22.0,22.0],[0.8,0.8],2,"Ответвители"],
+["SNR-T-224 tap→",2,[24.0,24.0],[0.5,0.5],2,"Ответвители"],
+["SNR-T-226 tap→",2,[26.0,26.0],[0.5,0.5],2,"Ответвители"],
+["SNR-T-228 tap→",2,[28.0,28.0],[0.5,0.5],2,"Ответвители"],
+["SNR-T-308 tap→",3,[8.0,8.0],[5.0,5.0],3,"Ответвители"],
+["SNR-T-310 tap→",3,[10.0,10.0],[4.0,4.0],3,"Ответвители"],
+["SNR-T-312 tap→",3,[12.0,12.0],[4.0,4.0],3,"Ответвители"],
+["SNR-T-314 tap→",3,[14.0,14.0],[3.8,3.8],3,"Ответвители"],
+["SNR-T-316 tap→",3,[16.0,16.0],[1.5,1.5],3,"Ответвители"],
+["SNR-T-318 tap→",3,[18.0,18.0],[1.5,1.5],3,"Ответвители"],
+["SNR-T-320 tap→",3,[20.0,20.0],[1.0,1.0],3,"Ответвители"],
+["SNR-T-322 tap→",3,[22.0,22.0],[1.0,1.0],3,"Ответвители"],
+["SNR-T-324 tap→",3,[24.0,24.0],[1.0,1.0],3,"Ответвители"],
+["SNR-T-326 tap→",3,[26.0,26.0],[1.0,1.0],3,"Ответвители"],
+["SNR-T-410 tap→",4,[10.0,10.0],[4.0,4.0],4,"Ответвители"],
+["SNR-T-412 tap→",4,[12.0,12.0],[4.0,4.0],4,"Ответвители"],
+["SNR-T-414 tap→",4,[14.0,14.0],[3.8,3.8],4,"Ответвители"],
+["SNR-T-416 tap→",4,[16.0,16.0],[2.0,2.0],4,"Ответвители"],
+["SNR-T-418 tap→",4,[18.0,18.0],[1.5,1.5],4,"Ответвители"],
+["SNR-T-420 tap→",4,[20.0,20.0],[1.5,1.5],4,"Ответвители"],
+["SNR-T-422 tap→",4,[22.0,22.0],[1.0,1.0],4,"Ответвители"],
+
+];
+
+var cabel=[
+["RG-6",6.1,18.5],
+["RG-6/U",8.1,26],
+["RG-11",4.1,12.5],
+];
+
