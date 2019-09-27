@@ -1,0 +1,41 @@
+#!/usr/bin/env python3
+import argparse
+import requests
+import json
+
+
+parser = argparse.ArgumentParser(description = "Мониторинг Astra")
+parser.add_argument('type', help = 'Type')
+parser.add_argument('param', help = 'Параметр')
+args = parser.parse_args()
+
+#if args.type == 'channel':
+
+url = "http://IP.Astra.Web:8001/control/"
+d = {}
+d['cmd'] = 'sessions'
+data = json.dumps(d)
+r = requests.post(url, data, auth=('admin','password'), timeout = 15)
+js0n = r.json
+
+c0unt = 0
+
+if args.type == 'stat':
+  if args.param == 'all':
+    for s in js0n['sessions']:
+      if s['uptime'] > 300:
+        c0unt = c0unt + 1
+  elif args.param == 'uniqip':
+    ipc = []
+    for s in js0n['sessions']:
+      if s['uptime'] > 300:
+        ipc.append(s['addr'])
+    c0unt = len(list(set(ipc)))
+  print(c0unt)
+elif args.type == 'channel':
+  for s in js0n['sessions']:
+    if s['channel_id'] == args.param:
+      c0unt = c0unt + 1
+  print(c0unt)
+else:
+  print('nodata')

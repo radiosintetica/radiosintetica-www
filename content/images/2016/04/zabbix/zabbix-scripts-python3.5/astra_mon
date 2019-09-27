@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+import argparse
+from requests import get
+
+parser = argparse.ArgumentParser(description = "Мониторинг Astra")
+parser.add_argument('type', help = 'dvb or channel')
+parser.add_argument('itemId', help = 'id of channel or dvb')
+parser.add_argument('param', help = 'Параметр')
+args = parser.parse_args()
+
+try:
+  if args.type == 'channel':
+    r = get("http://IP.Collector:8080/channel/{}".format(args.itemId), timeout = 15)
+    js0n = r.json()
+    if args.param not in js0n:
+      raise RuntimeError("Нет такого параметра")
+    print(js0n[args.param])
+  if args.type == 'dvb':
+    r = get("http://IP.Collector:8080/dvb/{}".format(args.itemId), timeout = 15)
+    js0n = r.json()
+    if args.param not in js0n:
+      raise RuntimeError("Нет такого параметра")
+    if args.param == 'signal':
+      print(round(js0n[args.param]*100/65535))
+    elif args.param == 'snr':
+      print(round(js0n[args.param]*100/65535))
+    else:
+      print(js0n[args.param])
+except:
+  print("nodata")
+
+
